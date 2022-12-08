@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="316.153" height="315.513" viewBox="0 0 316.153 315.513">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2e7d87"/>
+      <stop offset="1" stop-color="#43b8c8"/>
+    </linearGradient>
+    <filter id="Trazado_736395" x="0" y="0" width="316.153" height="315.513" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="9" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feFlood flood-color="#b9b9b9" flood-opacity="0.98"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Trazado_736395)">
+    <path id="Trazado_736395-2" data-name="Trazado 736395" d="M247.411,162.8l-85.079,85.324a45.165,45.165,0,0,1-64,0L13.253,162.8a45.485,45.485,0,0,1,0-64.187L98.332,13.292a45.165,45.165,0,0,1,64,0l85.079,85.324A45.477,45.477,0,0,1,247.411,162.8Z" transform="translate(8.5 259.63) rotate(-82)" opacity="0.43" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

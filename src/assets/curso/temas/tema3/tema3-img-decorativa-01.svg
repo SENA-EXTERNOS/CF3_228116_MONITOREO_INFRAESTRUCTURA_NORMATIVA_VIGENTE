@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="274.701" height="233.582" viewBox="0 0 274.701 233.582">
+  <defs>
+    <filter id="Trazado_736397">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feFlood flood-color="#2c2a2a" flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_736398" x="0" y="142.201" width="58.002" height="58.098" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="9" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3.5" result="blur-2"/>
+      <feFlood flood-color="#b9b9b9" flood-opacity="0.98"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_929409" data-name="Grupo 929409" transform="translate(-204.743 -519.202)">
+    <g id="Grupo_929381" data-name="Grupo 929381" transform="matrix(0.999, -0.052, 0.052, 0.999, 12299.903, 11005.175)">
+      <path id="Trazado_736393" data-name="Trazado 736393" d="M245.842,0V158.109s3.672,55.033-69.325,54.731S0,212.84,0,212.84" transform="translate(-11267.014 -10869.93) rotate(180)" fill="none" stroke="#bee2ed" stroke-width="4"/>
+    </g>
+    <g data-type="innerShadowGroup">
+      <path id="Trazado_736397-2" data-name="Trazado 736397" d="M20.556,13.527l-7.069,7.089a3.753,3.753,0,0,1-5.317,0L1.1,13.527a3.779,3.779,0,0,1,0-5.333L8.17,1.1a3.753,3.753,0,0,1,5.317,0l7.069,7.089A3.778,3.778,0,0,1,20.556,13.527Z" transform="matrix(-0.999, 0.052, -0.052, -0.999, 401.24, 540.893)" fill="#4dd0e1" opacity="0.999"/>
+      <g transform="matrix(1, 0, 0, 1, 204.74, 519.2)" filter="url(#Trazado_736397)">
+        <path id="Trazado_736397-3" data-name="Trazado 736397" d="M20.556,13.527l-7.069,7.089a3.753,3.753,0,0,1-5.317,0L1.1,13.527a3.779,3.779,0,0,1,0-5.333L8.17,1.1a3.753,3.753,0,0,1,5.317,0l7.069,7.089A3.778,3.778,0,0,1,20.556,13.527Z" transform="matrix(-1, 0.05, -0.05, -1, 196.5, 21.69)" fill="#fff" opacity="0.999"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 204.74, 519.2)" filter="url(#Trazado_736398)">
+      <path id="Trazado_736398-2" data-name="Trazado 736398" d="M33.412,21.986,21.923,33.509a6.1,6.1,0,0,1-8.643,0L1.79,21.986a6.143,6.143,0,0,1,0-8.668L13.28,1.8a6.1,6.1,0,0,1,8.643,0l11.49,11.523A6.142,6.142,0,0,1,33.412,21.986Z" transform="matrix(-1, 0.05, -0.05, -1, 45.5, 178.96)" fill="#4dd0e1" opacity="0.999"/>
+    </g>
+  </g>
+</svg>
