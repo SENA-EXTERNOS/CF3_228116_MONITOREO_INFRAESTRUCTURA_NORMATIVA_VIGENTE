@@ -11,11 +11,11 @@
     
     img(src='@/assets/curso/temas/tema1/tema1-img-decorativa-01.svg', alt='Texto que describa la imagen').tema1-decorativa-01
 
-    .row.justify-content-around.align-items-center.mt-3.mb-3(data-aos="flip-left") 
+    .row.justify-content-around.align-items-center.mt-3.mb-3
       .col-lg-6
-        img(src='@/assets/curso/temas/tema1/tema1-img-01.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/temas/tema1/tema1-img-01.png', alt='Texto que describa la imagen')(data-aos="flip-left")
       .col-lg-6
-        .clr.crd-paleBlue
+        .clr.crd-paleBlue(data-aos="flip-left")
           p.posicion-texto-crd.mt-3.mb-3 Se requiere reconocer que el tiempo en el que se encuentre fuera el sistema de información directamente está relacionado con pérdidas y hasta tanto las organizaciones no tengan presente este principio, no darán la importancia que merece el centro de datos como columna vertebral de la infraestructura tecnológica, pues en él se encuentran ubicados todos los componentes que permiten que los sistemas de información operan. 
 
     img(src='@/assets/curso/temas/tema1/tema1-img-decorativa-02.svg', alt='Texto que describa la imagen').tema1-decorativa-02
@@ -54,7 +54,6 @@
             
             .tarjeta.color-blanco6.p-3(x="84.3%" y="6%" numero="6")
               p Garantizar la disponibilidad de la red. 
-
     separador
 
     #t_1_1.titulo-segundo.color-acento-contenido.mt-5
@@ -62,12 +61,12 @@
 
     p.mt-3 El monitoreo de los centros de datos se puede dividir en tres componentes que permiten su administración y control de la siguiente manera:                                          
 
-    .row.justify-content-center.mb-5.mt-4(data-aos="zoom-in-out")
+    .row.justify-content-center.mb-5.mt-4
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0 
         .crd_hover_txt
-          .crd_hover_txt--img
+          .crd_hover_txt--img.tam-hover
             figure
-              img(src="@/assets/curso/temas/tema1/tema1-img-07.svg", alt="alt")
+              img(src="@/assets/curso/temas/tema1/tema1-img-07.png", alt="alt")
           .crd_hover_txt--body.tam-body
             h4.mb-3 Infraestructura TI
             p.mb-0 Dispositivos de red que permiten la comunicación entre equipos y que a su vez hacen parte de la Infraestructura TI.
@@ -75,17 +74,17 @@
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt
-          .crd_hover_txt--img
+          .crd_hover_txt--img.tam-hover
             figure
-              img(src="@/assets/curso/temas/tema1/tema1-img-08.svg", alt="alt")
+              img(src="@/assets/curso/temas/tema1/tema1-img-08.png", alt="alt")
           .crd_hover_txt--body.tam-body
             h4.posicion-body.mb-3 Aplicaciones y servicios requeridos para el funcionamiento del sistema organizacional.  
             p Ejemplos: Servidores Web, Servidores SQL, Servidores Correo,  Sistemas de Seguridad, Aplicaciones Web, etc. 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt
-          .crd_hover_txt--img
+          .crd_hover_txt--img.tam-hover
             figure
-              img(src="@/assets/curso/temas/tema1/tema1-img-09.svg", alt="alt")
+              img(src="@/assets/curso/temas/tema1/tema1-img-09.png", alt="alt")
           .crd_hover_txt--body
             h4.mb-3 Entorno del centro de datos
             p.mb-2 Instalaciones que se realizan directamente sobre la infraestructura del centro de datos y permiten su control y monitoreo.
@@ -107,11 +106,11 @@
     #t_1_2.titulo-segundo.color-acento-contenido.mt-5
       h2 1.2 Técnicas y procedimientos para el monitoreo del centro de datos y gestión de información.
     
-    .row.justify-content-around.align-items-center.mt-3.mb-3(data-aos="flip-left")
+    .row.justify-content-around.align-items-center.mt-3.mb-3
       .col-lg-6
-        img(src='@/assets/curso/temas/tema1/tema1-img-10.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/temas/tema1/tema1-img-10.png', alt='Texto que describa la imagen')(data-aos="flip-left")
       .col-lg-6
-        .clr.crd-paleYellow
+        .clr.crd-paleYellow(data-aos="flip-left")
           p.posicion-texto-crd2.mt-3.mb-3 La infraestructura de cada edificio lo convierte en único, de la misma manera cada data center está diseñado y ajustado a los requerimientos organizacionales con el fin de responder adecuadamente a las necesidades de sus usuarios; llevar seguimiento a la infraestructura tecnológica a través de bitácoras manuales aparte de ser muy engorroso, impide tener datos en tiempo real del estado del centro de datos y no facilita su consulta, almacenamiento y control.
 
     p.mt-3 Lo fundamental a la hora de implementar un data center es pensar en cómo se puede hacer monitoreo automáticamente, algunos de los sistemas que nos permiten realizarlo son:
@@ -144,15 +143,16 @@
             .tarjeta.color-blanco7.p-3(x="3%" y="33%" numero="7")
               p Monitoreo UPS, equipos activos                 
 
+
     #t_1_3.titulo-segundo.color-acento-contenido.mt-5
       h2 1.3 Niveles de Operación de los componentes de monitoreo
 
     p.mt-3 A continuación, se describen los niveles de operación que componen el monitoreo en el centro de datos para su correcto funcionamiento.
     p.mt-3 Niveles de operación
 
-    .row.justify-content-center.mb-5.mt-4(data-aos="zoom-out-up")
+    .row.justify-content-center.mb-5.mt-4
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left")
+        .crd_hover_txt(data-aos="zoom-out-up")
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema1/tema1-img-12.png", alt="alt")
@@ -163,7 +163,7 @@
 
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left")
+        .crd_hover_txt(data-aos="zoom-out-up")
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema1/tema1-img-13.png", alt="alt")
@@ -173,7 +173,7 @@
             p Dispositivos que cuentan con memoria y capacidad de procesar datos. 
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left")
+        .crd_hover_txt(data-aos="zoom-out-up")
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema1/tema1-img-14.png", alt="alt")
@@ -222,6 +222,7 @@
 
     img(src='@/assets/curso/temas/tema1/tema1-img-decorativa-06.svg', alt='Texto que describa la imagen').tema1-decorativa-06            
     img(src='@/assets/curso/temas/tema1/tema1-img-decorativa-07.svg', alt='Texto que describa la imagen').tema1-decorativa-07
+
 
 </template>
 

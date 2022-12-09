@@ -90,6 +90,8 @@
           .anexo__texto
             p #[b Enlace web]. UNIR Revista. (2020). ¿Cuáles son los riesgos laborales del trabajo informático? UNIR.  
 
+    img(src='@/assets/curso/temas/tema5/tema5-img-decorativa-02.svg', alt='Texto que describa la imagen').tema5-decorativa-02
+    img(src='@/assets/curso/temas/tema5/tema5-img-decorativa-03.svg', alt='Texto que describa la imagen').tema5-decorativa-03
 
 </template>
 
