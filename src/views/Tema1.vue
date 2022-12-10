@@ -30,7 +30,7 @@
     img(src='@/assets/curso/temas/tema1/tema1-img-decorativa-05.svg', alt='Texto que describa la imagen').tema1-decorativa-05
 
     .puntos-calientes-t1.mt-3.mb-3
-      .row.justify-content-around.align-items-center.mt-4  
+      .row.justify-content-around.align-items-center.mt-4
         .col-lg-12
           ImagenInfografica.color-primario
             template(v-slot:imagen)
@@ -86,7 +86,7 @@
             figure
               img(src="@/assets/curso/temas/tema1/tema1-img-09.png", alt="alt")
           .crd_hover_txt--body.body-tel
-            h4.mb-2 Entorno del centro de datos
+            h4.mb-3 Entorno del centro de datos
             p.mb-2 Instalaciones que se realizan directamente sobre la infraestructura del centro de datos y permiten su control y monitoreo.
             p.pos-texto-h Ejemplo: sensores de movimiento, temperatura, humedad, humo. Cámaras de seguridad, UPS, control de accesos, etc.
 

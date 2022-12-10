@@ -15,14 +15,14 @@
       .col-lg-10
         .clr-background-3.p-3.mb-5
           .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
+            .col-5.col-sm-2.col-lg-2
               img(src="@/assets/curso/temas/tema5/tema5-img-02.svg")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1  Seguridad y Salud en el Trabajo
-                  p.mb-1.text-small Para ampliar los conceptos sobre SST consultar el siguiente vídeo:
-                  p.mb-1.text-small Ecosistema de Recursos Educativos Digitales SENA, E. (2022). Seguridad y salud en el trabajo (SST)
+                  h3.color-blanco.mb-3  Seguridad y Salud en el Trabajo
+                  p.color-blanco.mb-5.text-small Para ampliar los conceptos sobre SST consultar el siguiente vídeo:
+                  p.color-blanco.mb-1.text-small Ecosistema de Recursos Educativos Digitales SENA, E. (2022). Seguridad y salud en el trabajo (SST)
                 .col-sm-auto
                   a.boton.color-acento-contenido.texto-blanco(href="https://www.youtube.com/watch?v=87fQFljT7OQ" target="_blank")
                     span Enlace Web
