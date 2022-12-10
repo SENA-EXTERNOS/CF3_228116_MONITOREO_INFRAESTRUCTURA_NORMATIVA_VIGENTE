@@ -85,10 +85,10 @@
           .crd_hover_txt--img.tam-hover
             figure
               img(src="@/assets/curso/temas/tema1/tema1-img-09.png", alt="alt")
-          .crd_hover_txt--body
-            h4.mb-3 Entorno del centro de datos
+          .crd_hover_txt--body.body-tel
+            h4.mb-2 Entorno del centro de datos
             p.mb-2 Instalaciones que se realizan directamente sobre la infraestructura del centro de datos y permiten su control y monitoreo.
-            p Ejemplo: sensores de movimiento, temperatura, humedad, humo. Cámaras de seguridad, UPS, control de accesos, etc.
+            p.pos-texto-h Ejemplo: sensores de movimiento, temperatura, humedad, humo. Cámaras de seguridad, UPS, control de accesos, etc.
 
     h4.mt-3 Monitoreo
     p.mt-3 Para conocer más sobre Monitoreo, principio básico para la disponibilidad de un centro de datos, consulte: 

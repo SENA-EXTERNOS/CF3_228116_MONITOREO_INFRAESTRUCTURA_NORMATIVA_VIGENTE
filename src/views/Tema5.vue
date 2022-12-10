@@ -32,7 +32,7 @@
     .row.justify-content-around.align-items-center(data-aos="zoom-in-up")
       .col-lg-12
         .row
-          img(src='@/assets/curso/temas/tema5/tema5-img-03.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema5/tema5-img-03.svg', alt='Texto que describa la imagen').tema5-img-03
           img(src='@/assets/curso/temas/tema5/tema5-img-04.svg', alt='Texto que describa la imagen').tema5-img-04
       .clr.crd-white(data-aos="zoom-in-up")
         p.posicion-texto-t5.mt-3 Hablando específicamente de la Seguridad y Salud en el Trabajo enfocado en TI, podría decirse que el nivel de riesgo no sea alto o peor aún, que no existan riesgos que deban ser mitigados debido a la naturaleza misma de la actividad que se realiza, monitoreo de cámaras o del centro de datos, analizar la red, desarrollar aplicativos, utilizar el sistema de información para hacer consultas, entre otros; son algunas de las actividades del día a día, completamente diferentes a los que por ejemplo en la construcción se encuentran de manera mucho más evidentes y hacen que se consideren actividades de riesgo; sin embargo; algunas de los riesgos más relevantes dentro de TI son: 

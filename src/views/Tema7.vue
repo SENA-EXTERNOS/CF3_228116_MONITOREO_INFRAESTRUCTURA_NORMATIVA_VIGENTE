@@ -7,6 +7,7 @@
         span 7
       h1 Bitácoras e inventarios
 
+    img(src='@/assets/curso/temas/tema7/tema7-img-decorativa-03.svg', alt='Texto que describa la imagen').tema7-decorativa-03
     .row.justify-content-around.align-items-center
       .col-lg-4(data-aos="zoom-out")
         img(src='@/assets/curso/temas/tema7/tema7-img-01.png', alt='Texto que describa la imagen').tema7-img-01

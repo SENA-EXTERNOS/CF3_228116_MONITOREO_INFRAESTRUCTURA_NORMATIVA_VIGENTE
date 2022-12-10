@@ -67,7 +67,7 @@ const router = new VueRouter({
           name: 'tema7',
           component: () =>
             import(/* webpackChunkName: "tema3" */ '../views/Tema7.vue'),
-        },                                
+        },
       ],
     },
     {

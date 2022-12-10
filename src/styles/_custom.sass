@@ -75,6 +75,8 @@
   background-position: left top
   background-repeat: no-repeat  
   height: 470px
+  @media (max-width: 500px)
+    height: 1170px
 
 .clr-background-2
   position: relative
@@ -87,18 +89,32 @@
   top: -11px
   height: 430px
   z-index: 2
-
-.img-intro-01
-  position: relative
-  height: 380px    
-  left: -10px
-  top: 14.9px
+  @media (max-width: 500px)  
+    width: 107%
+    left: -33px
+    height: 856px
 
 .posicion-texto-intro
   position: relative
   top: 71px
   left: 68px
   margin-right: 5rem
+  @media (max-width: 500px)
+    top: 135px
+    left: 115px
+    margin-right: 7.5rem    
+  
+.img-intro-01
+  position: relative
+  height: 380px    
+  left: -10px
+  top: 14.9px
+  @media (max-width: 500px)
+    height: 400px
+    left: 11px
+    top: -50.1px
+    width: 95%
+  
 
 .intro-decorativa-01
   position: absolute
@@ -106,12 +122,18 @@
   left: 75%
   width: 26%
   z-index: 2
+  @media (max-width: 500px)
+    top: 60%
 
 .intro-decorativa-02  
   position: absolute
   top: 50.5%
   left: 44%
   width: 49%  
+  @media (max-width: 500px)
+    top: 74.5%
+    left: 6%
+    width: 90%
 
 //tema1
 .crd-paleBlue
@@ -121,11 +143,19 @@
   position: relative
   left: -90px
   top: -7px
+  @media (max-width: 500px)
+    width: 100%
+    height: 275px
+    left: 0px
+    top: -29px
 
 .posicion-texto-crd
   position: relative
   top: 17px
   left: 13px
+  @media (max-width: 500px)
+    left: 9px
+    margin-right: 1rem
 
 .slyderb-01
   .slyder__btn  
@@ -139,37 +169,63 @@
       position: relative
       top: -122px
       left: -173px
+      @media (max-width: 500px)
+        top: -30px
+        left: -76px
   .color-blanco2
     p
       position: relative
       top: 150px
       left: -135px
+      @media (max-width: 500px)
+        top: 83px
+        left: -30px
   .color-blanco3
     p
       position: relative
       top: -155px
       left: -90px
+      @media (max-width: 500px)
+        top: -58px
+        left: 5px
   .color-blanco4
     p
       position: relative
       top: 152px
       left: -143px
+      @media (max-width: 500px)
+        top: 89px
+        left: 15px
   .color-blanco5
     p
       position: relative
       top: -145px
       left: -100px
+      @media (max-width: 500px)
+        top: -43px
+        left: 102px
   .color-blanco6          
     p
       position: relative
       top: 150px
       left: 10px
+      @media (max-width: 500px)
+        top: 77px
+        left: 28px
+
   .img-infografica.color-primario .img-infografica__item__dot:before
     background-color: #fd992700
   .img-infografica.color-primario .img-infografica__item__dot:after
     background-color: #fd992700
   .img-infografica__item__numero
     color: $white!important
+
+.body-tel
+  top: -13px
+
+.pos-texto-h
+  top: -12px
+  position: relative
 
 .color-primario1
   background-color: #e6fff6 !important 
@@ -193,11 +249,20 @@
   position: relative
   left: -181px
   top: -7px
+  @media (max-width: 500px)
+    width: 100%
+    height: 268px
+    left: -5px
+    top: -44px
 
 .posicion-texto-crd2 
   position: relative
   top: 17px
   left: 7px
+  @media (max-width: 500px)
+    top: 10px
+    left: 8px
+    margin-right: 0.5rem
 
 .puntos-calientes-02
   .img-infografica__item
@@ -207,36 +272,60 @@
       position: relative
       top: -29px
       left: 5px
+      @media (max-width: 500px)
+        top: -29px
+        left: 105px
+        margin-right: 0.5rem
   .color-blanco2
     p
       position: relative
       top: -30px
       left: 190px
+      @media (max-width: 500px)
+        top: -55px
+        left: 160px
   .color-blanco3
     p
       position: relative
       top: -30px
       left: 290px
+      @media (max-width: 500px)
+        top: -76px
+        left: 151px
   .color-blanco4
     p
       position: relative
       top: -32px
       left: 180px
+      @media (max-width: 500px)
+        top: 35px
+        left: 71px
   .color-blanco5
     p
       position: relative
       top: -10px
       left: -200px
+      @media (max-width: 500px)        
+        top: 42px
+        left: -59px
   .color-blanco6          
     p
       position: relative
       top: -32px
       left: -200px
+      @media (max-width: 500px)
+        top: -81px
+        left: -35px
+        margin-right: 8.5rem
   .color-blanco7        
     p
       position: relative
       top: -27px
-      left: -263px      
+      left: -263px    
+      @media (max-width: 500px)
+        top: -100px
+        left: -32px
+        margin-right: 8.5rem
   .img-infografica.color-primario .img-infografica__item__dot:before
     background-color: #fd992700
   .img-infografica.color-primario .img-infografica__item__dot:after
@@ -279,42 +368,65 @@
   top: 2.9%
   left: 43%
   width: 51%
+  @media (max-width: 500px)
+    top: 2.4%
+    left: 4%
+    width: 90%
 
 .tema1-decorativa-02
   position: absolute
   top: 0.5%
   left: 77%
   width: 36%
+  @media (max-width: 500px)
+    top: 1.4%
+    left: 72%
+    width: 42%
 
 .tema1-decorativa-03
   position: absolute
   top: 7.5%
   left: -3%
   width: 10%
+  @media (max-width: 500px)
+    top: 12.7%
+    left: -6%
+    width: 17%
 
 .tema1-decorativa-04
   position: absolute
   top: 10%
   left: -4%
   width: 8%
+  @media (max-width: 500px)
+    top: 16%
+    width: 15%
 
 .tema1-decorativa-05
   position: absolute
   top: 23%
   left: 95%
   width: 7%
+  @media (max-width: 500px)
+    top: 20%
+    left: 91%
+    width: 13%
 
 .tema1-decorativa-06
   position: absolute
   top: 93.5%
   left: -6%
   width: 34%
+  @media (max-width: 500px)
+    top: 98.5%
 
 .tema1-decorativa-07  
   position: absolute
   top: 96%
   left: 82%
   width: 18%
+  @media (max-width: 500px)
+    top: 99.2%
 
 .tam-hover
   height: 230px
@@ -327,6 +439,9 @@
   position: relative
   left: -2px
   top: -36px
+  @media (max-width: 500px)
+    width: 85%
+    height: 260px
 
 .posicion-texto-crd2 
   position: relative
@@ -358,12 +473,20 @@
   top: 42%
   left: -5%
   width: 18%
+  @media (max-width: 500px)
+    top: 34%
+    left: -5%
+    width: 19%
 
 .tema2-decorativa-02  
   position: absolute
   top: 46%
   left: 87%
-  width: 17%        
+  width: 17%  
+  @media (max-width: 500px)
+    top: 37%
+    left: 85%
+    width: 19%      
 
 //tema3
 .acordionA-01
@@ -392,18 +515,28 @@
   left: 0.5%
   width: 29%
   z-index: 2
+  @media (max-width: 500px)
+    top: 12.6%
+    left: 0%
+    width: 75%
 
 .tema3-decorativa-02  
   position: absolute
   top: 37%
   left: -5%
   width: 9.5%
+  @media (max-width: 500px)
+    width: 11.5%
 
 .tema3-decorativa-03 
   position: absolute
   top: 54%
   left: 95.1%
   width: 10%
+  @media (max-width: 500px)
+    top: 43%
+    left: 93.1%
+    width: 15%
 
   
 //tema4
@@ -413,6 +546,10 @@
   top: 8%
   left: 29.1%
   width: 23%
+  @media (max-width: 500px)
+    top: 8.3%
+    left: 59.1%
+    width: 42%
 
 .slyderA-02
   .slyder-a__bullets__item--active 
@@ -444,10 +581,26 @@
   position: absolute
   left: 5%
   top: 10%
+  @media (max-width: 500px)
+    width: 88%
+    height: 486px
+    left: 6%
+    top: 3%
   .posicion-texto-t5
     margin-right: 1.5rem
     top: 10px
     left: 10px
+    position: relative
+
+.tema5-img-03
+  @media (max-width: 500px)
+    background-image: url("../assets/curso/temas/tema5/tema5-img-03-1.svg") 
+    background-size: cover
+    background-position: left top
+    background-repeat: no-repeat
+    width: 94%
+    left: 3%
+    height: 690px
     position: relative
 
 .tema5-img-04
@@ -455,6 +608,10 @@
   top: 0%
   left: 57.4%
   width: 42.8%  
+  @media (max-width: 500px)
+    left: 0.4%
+    top: 62%
+    width: 99%
 
 .infografica-b-01
   .img-infografica-b__item
@@ -470,6 +627,9 @@
     position: relative
     left: 44%
     width: 200%
+    @media (max-width: 500px)
+      left: 0%
+      width: 100%
   .img-infografica-b__modal__contenido div > * 
     color: $black !important
   .img-infografica-b__modal__btn-cerrar i
@@ -481,19 +641,30 @@
   left: 79.1%
   width: 14%
   z-index: 2
+  @media (max-width: 500px)
+    top: 13%
+    left: 46.1%
+    width: 51%
 
 .tema5-decorativa-02
   position: absolute
   top: 51%
   left: -2.6%
   width: 8.8%
+  @media (max-width: 500px)
+    top: 63%
+    left: -2.6%
+    width: 13.8%
 
 .tema5-decorativa-03
   position: absolute
   top: 73%
   left: 91.4%
   width: 14.8%
-
+  @media (max-width: 500px)
+    top: 80%
+    left: 86.4%
+    width: 17.8%
 
 //tema6
 .cajon.color-primario1
@@ -502,56 +673,94 @@
   background-color: #99E9F5 
 
 .puntos-calientes-t6
+  .tarjeta 
+    @media (max-width: 500px)
+      background-color: white
   .color-blanco1
     h5
       position: relative
       top: 38px
       left: -86px 
+      @media (max-width: 500px)
+        top: -13px
+        left: -8px
     p
       position: relative
       top: 34px
       left: -86px
       width: 375%
+      @media (max-width: 500px)
+        top: -9px
+        left: -7px
+        width: 106%
   .color-blanco2
     h5
       position: relative
       top: 42px
       left: -316px 
+      @media (max-width: 500px)
+        top: -15px
+        left: -9px
     p
       position: relative
       top: 34px
       left: -316px
       width: 371%
+      @media (max-width: 500px)
+        top: -17px
+        left: -5px
+        width: 108%
   .color-blanco3
     h5
       position: relative
       top: 40px
       left: -519px
+      @media (max-width: 500px)
+        top: -15px
+        left: -9px      
     p
       position: relative
       top: 51px
       left: -520px
       width: 370%
+      @media (max-width: 500px)
+        top: -17px
+        left: -5px
+        width: 108%      
   .color-blanco4
     h5
       position: relative
       top: 45px
       left: -713px
+      @media (max-width: 500px)
+        top: -15px
+        left: -9px      
     p
       position: relative
       top: 34px
       left: -713px
       width: 375%
+      @media (max-width: 500px)
+        top: -17px
+        left: -5px
+        width: 108%      
   .color-blanco5
     h5
       position: relative
       top: 42px
       left: -730px  
+      @media (max-width: 500px)
+        top: -15px
+        left: -9px      
     p
       position: relative
       top: 34px
       left: -731px
       width: 372%
+      @media (max-width: 500px)
+        top: -17px
+        left: -5px
+        width: 108%      
   .img-infografica.color-primario .img-infografica__item__dot:before
     background-color: #fd992700
   .img-infografica.color-primario .img-infografica__item__dot:after
@@ -564,18 +773,30 @@
   top: 23.5%
   left: 77.4%
   width: 23.8%
+  @media (max-width: 500px)
+    top: 44%
+    left: 50.4%
+    width: 46.8%
 
 .tema6-decorativa-02
   position: absolute
   top: 23.5%
   left: -5.6%
   width: 9.8%
+  @media (max-width: 500px)
+    top: 24.5%
+    left: -5.6%
+    width: 17.8%
 
 .tema6-decorativa-03
   position: absolute
   top: 41.5%
   left: 94%
   width: 9.8%
+  @media (max-width: 500px)
+    top: 57.7%
+    left: 85%
+    width: 15.8%
 
 //tema7                  
 .crd-white2
@@ -585,17 +806,28 @@
   position: absolute
   left: -7%
   top: 13%
+  @media (max-width: 500px)
+    width: 89%
+    height: 301px
+    left: 6%
+    top: -165%
   .posicion-crd
     position: relative
     left: 10px
+    @media (max-width: 500px)
+      left: 5px
 
 .tema7-img-01
   position: relative
   width: 97%
+  @media (max-width: 500px)
+    width: 100%
 
 .tema7-img-02
   position: relative
   left: -35px
+  @media (max-width: 500px)
+    left: 0px
 
 .crd-hover-2  
   .crd_hover_txt
@@ -630,12 +862,31 @@
   top: 56.5%
   left: -4.6%
   width: 13.2%
+  @media (max-width: 500px)
+    top: 69.5%
+    left: -6.6%
 
 .tema7-decorativa-02
   position: absolute
   top: 67.5%
   left: 86%
   width: 7.8%
+  @media (max-width: 500px)
+    top: 79.5%
+    left: 92%
+    width: 11.8%
+
+.tema7-decorativa-03
+  position: absolute
+  top: 4.5%
+  left: 1%
+  width: 21.8%
+  z-index: 2
+  @media (max-width: 500px)
+    top: 2.6%
+    left: -2%
+    width: 65.8%
+
 
 @keyframes float1
   0%
