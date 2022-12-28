@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="249.735" height="249.769" viewBox="0 0 249.735 249.769">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2e7d87"/>
+      <stop offset="1" stop-color="#43b8c8"/>
+    </linearGradient>
+    <filter id="Trazado_736392" x="0" y="0" width="249.735" height="249.769" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="9" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feFlood flood-color="#b9b9b9" flood-opacity="0.98"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_929407" data-name="Grupo 929407" transform="translate(-1427.818 -2514.432)">
+    <g id="Grupo_929387" data-name="Grupo 929387" transform="translate(-49.36 -12702.777) rotate(-138)" opacity="0.86">
+      <path id="Trazado_736393" data-name="Trazado 736393" d="M1.993,0V39.654s.03,13.8-.562,13.727a8.157,8.157,0,0,0-1.431,0" transform="translate(-11450.18 -10393.518) rotate(180)" fill="none" stroke="#3c9aa7" stroke-width="4"/>
+      <g transform="matrix(-0.74, 0.67, -0.67, -0.74, -11280.06, -10320.17)" filter="url(#Trazado_736392)">
+        <path id="Trazado_736392-2" data-name="Trazado 736392" d="M153.515,101.017l-52.79,52.943a28.024,28.024,0,0,1-39.711,0L8.223,101.017a28.223,28.223,0,0,1,0-39.827L61.014,8.248a28.024,28.024,0,0,1,39.711,0l52.79,52.942A28.218,28.218,0,0,1,153.515,101.017Z" transform="translate(117.04 1.5) rotate(42)" opacity="0.42" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>

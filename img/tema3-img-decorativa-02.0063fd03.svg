@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="199.218" height="191.576" viewBox="0 0 199.218 191.576">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2e7d87"/>
+      <stop offset="1" stop-color="#43b8c8"/>
+    </linearGradient>
+    <filter id="Trazado_736394">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feFlood flood-color="#2c2a2a" flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_929410" data-name="Grupo 929410" transform="translate(2079.5 4725.957)">
+    <g id="Grupo_929409" data-name="Grupo 929409" transform="translate(-2204.452 -19672.66) rotate(-138)" opacity="0.86">
+      <path id="Trazado_736393" data-name="Trazado 736393" d="M260.766,3.856V.992s3.894-1-73.534-.992S0,0,0,0" transform="translate(-10097.067 -11023.333) rotate(180)" fill="none" stroke="#3c9aa7" stroke-width="4"/>
+      <g data-type="innerShadowGroup">
+        <path id="Trazado_736394-2" data-name="Trazado 736394" d="M135.453,79.274,88.874,120.821c-9.674,8.63-25.362,8.63-35.039,0L7.256,79.274c-9.674-8.63-9.674-22.622,0-31.255L53.835,6.472c9.677-8.63,25.364-8.63,35.039,0l46.579,41.547C145.129,56.652,145.129,70.644,135.453,79.274Z" transform="translate(-10160.365 -10966.339) rotate(180)" opacity="0.57" fill="url(#linear-gradient)"/>
+        <g transform="matrix(-0.74, 0.67, -0.67, -0.74, -10094.15, -11023.96)" filter="url(#Trazado_736394)">
+          <path id="Trazado_736394-3" data-name="Trazado 736394" d="M135.453,79.274,88.874,120.821c-9.674,8.63-25.362,8.63-35.039,0L7.256,79.274c-9.674-8.63-9.674-22.622,0-31.255L53.835,6.472c9.677-8.63,25.364-8.63,35.039,0l46.579,41.547C145.129,56.652,145.129,70.644,135.453,79.274Z" transform="translate(87.76 1.49) rotate(42)" fill="#fff" opacity="0.57"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
