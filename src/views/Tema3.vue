@@ -47,7 +47,7 @@
                   li 
                     .lista-ol--cuadro__vineta
                       span 4
-                    | Costo del #[i ticket] (mano de obra, repuestos, etc.). 
+                    p.mb-0 Costo del #[i ticket] (mano de obra, repuestos, etc.). 
                   li 
                     .lista-ol--cuadro__vineta
                       span 5
@@ -63,19 +63,19 @@
                 ul.color-i
                   li
                     i.fas.fa-check
-                    | Acciones de mejora. 
+                    |             Acciones de mejora. 
                   li
                     i.fas.fa-check
-                    | Implementación de buenas prácticas. 
+                    |             Implementación de buenas prácticas. 
                   li
                     i.fas.fa-check
-                    | Acciones correctivas al proceso TI. 
+                    |             Acciones correctivas al proceso TI. 
                   li
                     i.fas.fa-check
-                    | Acciones correctivas al proceso de prestación de servicio. 
+                    |             Acciones correctivas al proceso de prestación de servicio. 
                   li
                     i.fas.fa-check
-                    | Solicitar capacitación sobre atención al usuario, tiempos de respuesta, normatividad, ITIL, etc.                                          
+                    |             Solicitar capacitación sobre atención al usuario, tiempos de respuesta, normatividad, ITIL, etc.                                          
 
             .row(titulo="Indicadores")
               .col-md-12.mb-4.mb-md-0
@@ -124,37 +124,37 @@
                 p.mb-2 Como explica Alfonso. G. (2016) 
                 p.mb-2 en su blog, este indicador tiene tres unidades como ejes centrales de operación:
                 .row
-                  .col-lg-6
+                  .col-lg-5
                     ul.color-i
                       li
                         i.fas.fa-check
-                        | Tiempo de disponibilidad. 
+                        |             Tiempo de disponibilidad. 
                       li
                         i.fas.fa-check
-                        | Cantidad de caídas al año. 
+                        |             Cantidad de caídas al año. 
                       li
                         i.fas.fa-check
-                        | Costos de operación. 
+                        |             Costos de operación. 
                       li
                         i.fas.fa-check
-                        | Cantidad de correctivos aplicados en un período de tiempo determinado. 
+                        |             Cantidad de correctivos aplicados en un período de tiempo determinado. 
                       li
                         i.fas.fa-check
-                        | etc.  
-                  .col-lg-6
+                        |             etc.  
+                  .col-lg-7
                     ul.color-i
                       li
                         i.fas.fa-check
-                        | Consumo energético. 
+                        |             Consumo energético. 
                       li
                         i.fas.fa-check
-                        | Tiempo de respuesta a las eventualidades. 
+                        |             Tiempo de respuesta a las eventualidades. 
                       li
                         i.fas.fa-check
-                        | Cantidad de alertas.
+                        |             Cantidad de alertas.
                       li
                         i.fas.fa-check
-                        | Equipo TI encargado de realizar las actividades y la cantidad de actividades resueltas en un periodo de tiempo establecido.          
+                        |             Equipo TI encargado de realizar las actividades y la cantidad de actividades resueltas en un periodo de tiempo establecido.          
             .row(titulo="Estadísticas data center")
               .col-md-12.mb-4.mb-md-0
                 p Así, se podrán llevar datos estadísticos sobre el centro de datos y su funcionamiento, entender su dinámica y evitar fallas; también personalizar los indicadores de gestión del centro de datos de acuerdo a las dinámicas organizacionales propias de cada institución.

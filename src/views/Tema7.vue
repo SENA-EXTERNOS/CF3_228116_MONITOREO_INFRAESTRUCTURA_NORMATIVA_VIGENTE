@@ -14,7 +14,7 @@
       .col-lg-8(data-aos="zoom-out")
         img(src='@/assets/curso/temas/tema7/tema7-img-02.svg', alt='Texto que describa la imagen').tema7-img-02
         .clr.crd-white2
-          p.posicion-crd.mt-3.mb-3 La palabra Bitácora proviene del francés #[i Bitacle] y su principal uso fue en la vida marítima. Corresponde a un instrumento que se fijaba a la cubierta, cerca del timón y de la aguja náutica que facilitaba la navegación en océanos desconocidos, era un cuaderno donde se narraban todos los acontecimientos que se presentaban, así quedaba constancia de cada uno de ellos. En la actualidad obtuvieron gran apogeo gracias a los #[i weblogs] o blogs que son bitácoras virtuales publicadas en Internet.
+          p.p-1.posicion-crd.mt-3.mb-3 La palabra Bitácora proviene del francés #[i Bitacle] y su principal uso fue en la vida marítima. Corresponde a un instrumento que se fijaba a la cubierta, cerca del timón y de la aguja náutica que facilitaba la navegación en océanos desconocidos, era un cuaderno donde se narraban todos los acontecimientos que se presentaban, así quedaba constancia de cada uno de ellos. En la actualidad obtuvieron gran apogeo gracias a los #[i weblogs] o blogs que son bitácoras virtuales publicadas en Internet.
 
     p.mt-3 A continuación, se explica la importancia de tener registro de todos los eventos en las bitácoras donde se hace un regimiento y control en el campo de IT. 
 

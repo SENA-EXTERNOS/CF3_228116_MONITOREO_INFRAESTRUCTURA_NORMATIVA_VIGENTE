@@ -23,7 +23,6 @@
     .row.justify-content-center.align-items-center
       .col-lg-11
         .cajon.color-acento-botones.p-4.mt-4
-          p.mb-3 Este componente formativo aborda la temática del monitoreo del centro de datos según la normatividad vigente; a través de la apropiación de conceptos claves, se reconocerán los estándares internacionales que permiten administrar las variables del centro de datos, así evitar caídas del sistema y errores humanos que afecten el normal funcionamiento y operación de la empresa. 
           p Comprender la importancia de las contingencias, evaluar las causas de los incidentes, aplicar buenas prácticas en el ejercicio administrativo del centro de datos, llevar bitácoras e inventarios de los equipos que integran la infraestructura TI, además de reconocer el correcto manejo de residuos, son algunos de los temas que serán tratados. 
 
     img(src='@/assets/curso/intro/intro-decorativa-02.svg', alt='Texto que describa la imagen').intro-decorativa-02

@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 6
-      h1 Manejo de posturas
+      h1 Buenas prácticas
 
     .row.justify-content-around.align-items-center.mt-3 
       .col-lg-9

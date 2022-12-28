@@ -13,6 +13,7 @@
 
     .row.justify-content-around.align-items-center.mt-3.mb-3
       .col-lg-6
+      figure.p-3
         img(src='@/assets/curso/temas/tema1/tema1-img-01.png', alt='Texto que describa la imagen')(data-aos="flip-left")
       .col-lg-6
         .clr.crd-paleBlue(data-aos="flip-left")
