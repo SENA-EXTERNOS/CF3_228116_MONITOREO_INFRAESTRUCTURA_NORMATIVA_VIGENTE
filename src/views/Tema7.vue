@@ -271,7 +271,7 @@
 
     .row.mt-3
       .col-lg-7
-        a.anexo.mb-4.mb-lg-0(href="https://www.trt.net.tr/espanol/ciencia-y-tecnologia/2021/06/01/el-mundo-registra-un-alarmante-aumento-de-los-ataques-ciberneticos-con-sistemas-de-ransomware-1649506 " target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="https://www.google.com/url?client=internal-element-cse&cx=17378af97b20a9ddf&q=https://www.lospatios-nortedesantander.gov.co/Conectividad/InformesGEL/Matriz%2520de%2520Inventario%2520Activos%2520de%2520Informaci%25C3%25B3n%25202016.xlsx&sa=U&ved=2ahUKEwjVxpDPxOz5AhXWmIQIHW0OAb4QFnoECAcQAQ&usg=AOvVaw3p-XH2TGFkKA_eqdkq77C9" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
