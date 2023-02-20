@@ -8,7 +8,9 @@
       h1 Evaluación de causas
 
     p.mt-3 El buen uso de un centro de datos no está ligado solamente a su infraestructura física, ni al control de las variables, también está estrechamente ligado al seguimiento, administración y monitoreo que se realice a cada uno de sus componentes con el fin de poder realizar evaluación y seguimiento al desempeño del mismo. 
-    p.mt-3 Ejemplo aplicado a un caso TI
+    
+    .row.mt-5
+      h3 Ejemplo aplicado a un caso TI
 
     img(src='@/assets/curso/temas/tema3/tema3-img-decorativa-01.svg' alt='AvatarTop').tema3-decorativa-01
 
@@ -19,14 +21,15 @@
       .bloque-texto-g__texto.p-2
         p.mb-0 Al momento de percatarse de una falla del equipo de cómputo que le permite acceder al sistema de información, un usuario registra un #[i ticket] solicitando apoyo para su reparación, mismo que llega directamente al equipo de mesa de ayuda y este a su vez, realiza la asignación de acuerdo con su prioridad; el técnico delegado para resolver el ticket contacta al usuario, realizan un acuerdo para la revisión e inmediatamente trabaja en función de su solución. 
 
-    p.mt-3 Servicio HelpDesk
+    .row.mt-5
+      h3 Servicio <em>HelpDesk</em>
     .row.justify-content-around.align-items-center.mb-3
       .col-lg-7
         .acordionA-01
           AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
             .row(titulo="Reparación del equipo dañado")
               .col-md-12.mb-4.mb-md-0
-                p El técnico requiere de insumos para reparar el equipo, así que instala la contingencia, solicita al departamento de compras el repuesto y una vez llega, resuelve el incidente en el equipo, acuerda nuevamente con el usuario la instalación del equipo principal, documenta el proceso de solución del ticket y lo finaliza; por último, el usuario hará una calificación del servicio al técnico.                                 
+                p Las recomendaciones de ASHRAE permiten tener indicadores de seguimiento y control para los data center, por citar un ejemplo el desempeño del enfriamiento está regulado por la métrica PUE (Power Usage Effectiveness) que mide la eficiencia energética de la infraestructura del data center.
 
             .row(titulo="Análisis de solución del requerimiento")
               .col-md-12.mb-4.mb-md-0
@@ -85,7 +88,9 @@
         img(src='@/assets/curso/temas/tema3/tema3-img-02.svg' alt='AvatarTop')(data-aos="flip-right") 
 
     p.mt-3 Las recomendaciones de ASHRAE permiten tener indicadores de seguimiento y control para los data center, por citar un ejemplo el desempeño del enfriamiento está regulado por la métrica PUE (#[i Power Usage Effectiveness]) que mide la eficiencia energética de la infraestructura del data center.
-    p.mt-3 Indicadores de seguimiento y control
+    
+    .row.mt-5
+      h3 Indicadores de seguimiento y control
 
     img(src='@/assets/curso/temas/tema3/tema3-img-decorativa-02.svg' alt='AvatarTop').tema3-decorativa-02
     img(src='@/assets/curso/temas/tema3/tema3-img-decorativa-03.svg' alt='AvatarTop').tema3-decorativa-03

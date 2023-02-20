@@ -49,25 +49,27 @@
           .row.justify-content-center.align-items-center.my-lg-4
             .col-md-6.mb-4.mb-md-0
               h5.mb-2 Normatividad ambiental
-              p Por tanto, la normatividad ambiental regula las buenas prácticas que permiten garantizar la conservación del medio ambiente y la protección del ser humano. 
+              p Es la encargada de regular las buenas prácticas que permiten garantizar la conservación del medio ambiente y la protección del ser humano. 
             .col-md-6
               figure
                 img(src='@/assets/curso/temas/tema4/tema4-img-03.png', alt='Texto que describa la imagen')(data-aos="flip-right")
 
           .row.justify-content-center.align-items-center.my-lg-4
             .col-md-6.mb-4.mb-md-0
-              h5 Normatividad
+              h5 Normatividad:
               p.mb-2 Para la disposición de los componentes electrónicos en Colombia se cuentan con las siguientes normativas:
-              p.mb-2 Normativa para la disposición de componentes electrónicos en Colombia.
+
               p.mb-2 Decreto 284 de 2018: reglamenta la gestión integral que se debe dar a los residuos y aparatos eléctricos y electrónicos más conocidos como RAEE, para prevenir y minimizar los impactos adversos al ambiente. 
-              p Ley 1672 de 2013: expide los lineamientos para adoptar la política de gestión integral de residuos y aparatos eléctricos y electrónicos RAEE en Colombia.
+
+              p.mb-2 Ley 1672 de 2013: expide los lineamientos para adoptar la política de gestión integral de residuos y aparatos eléctricos y electrónicos RAEE en Colombia.
+
             .col-md-6
               figure
                 img(src='@/assets/curso/temas/tema4/tema4-img-04.png', alt='Texto que describa la imagen')(data-aos="flip-right")
 
           .row.justify-content-center.align-items-center.my-lg-4
             .col-md-6.mb-4.mb-md-0
-              h5.mb-3 Residuos electrónicos
+              h5.mb-3 Residuos electrónicos:
               p Tanto el decreto 248 como la ley 1672, regulan el manejo de residuos electrónicos y su clasificación según su disposición en elementos aprovechables y no aprovechables, es decir, para la disposición final de los residuos eléctricos y electrónicos, estos se deben clasificar y disponer en lugares especialmente seleccionados y diseñados para evitar la contaminación, daños y riesgos a la salud humana y al medio ambiente, la ley 1672 también advierte: “En todo caso, quedará prohibida la disposición de Residuos de Aparatos Eléctricos y Electrónicos RAEE en rellenos sanitarios”. 
             .col-md-6              
               figure
@@ -75,7 +77,7 @@
 
           .row.justify-content-center.align-items-center.my-lg-4
             .col-md-6.mb-4.mb-md-0
-              h5.mb-3 Manejo de residuos
+              h5.mb-3 Manejo de residuos:
               p Es importante reconocer que no solo las empresas tienen obligación con la disposición de los RAEE, “los usuarios y consumidores también deberán entregar dichos elementos en sitios dispuestos para tal fin, además de asumir la corresponsabilidad social con la gestión integral de RAEE, reconocer y respetar el derecho de todos los ciudadanos a un medio ambiente saludable” (Ley 1672 de 2013). Por ello en lugares públicos como centros comerciales se han creado espacios para la correcta disposición final de los residuos tecnológicos, lámparas, baterías, celulares, portátiles, entre otros. 
             .col-md-6
               figure

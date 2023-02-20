@@ -60,33 +60,6 @@ export default {
         numero: '1',
         titulo: 'Establecer procesos de monitoreo',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Componentes administrativos del centro de datos',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo:
-              'Técnicas y procedimientos para el monitoreo del centro de datos y gestión de la información',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Niveles de operación de los componentes de monitoreo',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Sistemas de administración del centro de datos',
-            hash: 't_1_4',
-          },
-        ],
       },
       {
         nombreRuta: 'tema2',
@@ -129,26 +102,6 @@ export default {
         numero: '7',
         titulo: 'Bitácoras e inventarios',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '7.1',
-            titulo: 'Clasificación de los inventarios',
-            hash: 't_7_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '7.2',
-            titulo: 'Paso a paso para implementar un inventario',
-            hash: 't_7_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '7.3',
-            titulo: 'Sistemas de control de inventarios',
-            hash: 't_7_3',
-          },
-        ],
       },
     ],
     subMenu: [

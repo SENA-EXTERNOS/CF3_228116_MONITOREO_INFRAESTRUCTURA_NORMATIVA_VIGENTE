@@ -44,7 +44,9 @@
             h2.text-center Contingencias
             p.text-center Como se puede observar, las contingencias deberán estar pensadas de acuerdo a la infraestructura TI y como tal deberán suplir el sistema principal en caso de presentarse cualquier novedad.
 
-    p.mb-3.mt-4 Herramientas de simulación
+    .row.mt-5
+      h3 Herramientas de simulación
+      
     .row.justify-content-around.align-items-center.mb-3
       .col-lg-9
         .cajon.color-primario.p-4.mt-4

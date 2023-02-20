@@ -138,10 +138,8 @@
               figure
                 img(src='@/assets/curso/temas/tema7/tema7-img-08.png', alt='Texto que describa la imagen')(data-aos="fade-right")
 
-    separador
-
-    #t_7_1.titulo-segundo.color-acento-contenido.mt-5
-      h2 7.1  Clasificación de los Inventarios
+    .row.mt-5
+      h3 Clasificación de los Inventarios
 
     p.mt-3 A continuación, se muestra la clasificación de inventarios según tipo de inventario, producto, función y logística.
 
@@ -182,10 +180,8 @@
               h5.text-center.mb-2 Según la logística
               p.text-center Ductos, especulación, naturaleza regular o cíclica, de seguridad, existencias obsoletas o muertas.
 
-    separador
-
-    #t_7_2.titulo-segundo.color-acento-contenido.mt-5
-      h2 7.2  Paso a paso para implementar un inventario
+    .row.mt-5
+      h3 Paso a paso para implementar un inventario
 
     img(src='@/assets/curso/temas/tema7/tema7-img-decorativa-01.svg', alt='Texto que describa la imagen').tema7-decorativa-01
     img(src='@/assets/curso/temas/tema7/tema7-img-decorativa-02.svg', alt='Texto que describa la imagen').tema7-decorativa-02
@@ -208,8 +204,6 @@
         .cajon.color-primario1.p-4
           p Para iniciar la implementación de un inventario se debe en primera medida identificar todos los elementos que componen los activos tangibles e intangibles de la organización, seguido se debe contar con un lugar en el cual se puedan almacenar los activos que no están en uso, tenerlos disponibles y en custodia; además, de tener un espacio físico en el cual se pueda ubicar el equipo de trabajo que garantice el seguimiento y control de cada uno de ellos.
 
-    #t_7_3.titulo-segundo.color-acento-contenido.mt-5
-      h2 7.3  Sistemas de control de inventarios
 
     p.mt-3 A continuación, se detalla los sistemas de control de inventarios. 
 
@@ -264,8 +258,31 @@
               figure
                 img(src='@/assets/curso/temas/tema7/tema7-img-20.svg', alt='Texto que describa la imagen')
 
-        
-        
+
+    .row.mt-5
+      h3 Actividad Integradora
+
+      p Utilice las técnicas de comunicación escrita para crear un informe en el cual dé a conocer el inventario existente de la Alcaldía de los Patios del Norte de Santander, emita un concepto técnico según lo observado en donde pueda realizar una clasificación de los activos fijos tangibles e intangibles y de acuerdo con los sistemas de control de inventario, defina cuál sería el más apropiado para la alcaldía argumentando su respuesta. 
+
+      p Técnicas de redacción y ortografía. 
+
+    .row.mt-5
+      h3 Sistema de control de inventarios
+
+    .row.mt-3
+      .col-lg-7
+        a.anexo.mb-4.mb-lg-0(href="https://www.trt.net.tr/espanol/ciencia-y-tecnologia/2021/06/01/el-mundo-registra-un-alarmante-aumento-de-los-ataques-ciberneticos-con-sistemas-de-ransomware-1649506 " target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p #[b Enlace web]. Alcaldía de los patios. (2016). Matriz de inventario de activos de información.
+
+
+    .row.justify-content-around.align-items-center.mt-3 
+      .col-lg-9
+        .cajon.color-primario1.p-4
+          p.mb-2 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo, como son la síntesis, la actividad didáctica, material complementario, entre otros.
+
 
 
 </template>

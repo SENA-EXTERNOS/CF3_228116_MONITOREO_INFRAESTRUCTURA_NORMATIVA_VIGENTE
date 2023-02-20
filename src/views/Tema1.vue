@@ -55,10 +55,9 @@
             
             .tarjeta.color-blanco6.p-3(x="84.3%" y="6%" numero="6")
               p Garantizar la disponibilidad de la red. 
-    separador
-
-    #t_1_1.titulo-segundo.color-acento-contenido.mt-5
-      h2 1.1  Componentes administrativos del centro de datos
+    
+    .row.mt-5
+      h3 Componentes administrativos del centro de datos
 
     p.mt-3 El monitoreo de los centros de datos se puede dividir en tres componentes que permiten su administración y control de la siguiente manera:                                          
 
@@ -102,20 +101,20 @@
           .anexo__texto
             p Enlace web. Ago, P. (2016). Monitoreo, principio básico para la disponibilidad de un centro de datos. ComputerWeekly.es; TechTarget. 
 
-    separador
-
-    #t_1_2.titulo-segundo.color-acento-contenido.mt-5
-      h2 1.2 Técnicas y procedimientos para el monitoreo del centro de datos y gestión de información.
+    .row.mt-5
+      h3 Técnicas y procedimientos para el monitoreo del centro de datos y gestión de información
     
     .row.justify-content-around.align-items-center.mt-3.mb-3
       .col-lg-6
         img(src='@/assets/curso/temas/tema1/tema1-img-10.png', alt='Texto que describa la imagen')(data-aos="flip-left")
       .col-lg-6
         .clr.crd-paleYellow(data-aos="flip-left")
-          p.posicion-texto-crd2.mt-3.mb-3 La infraestructura de cada edificio lo convierte en único, de la misma manera cada data center está diseñado y ajustado a los requerimientos organizacionales con el fin de responder adecuadamente a las necesidades de sus usuarios; llevar seguimiento a la infraestructura tecnológica a través de bitácoras manuales aparte de ser muy engorroso, impide tener datos en tiempo real del estado del centro de datos y no facilita su consulta, almacenamiento y control.
+          p.posicion-texto-crd2.mt-3.mb-3 La infraestructura de cada edificio lo convierte en único, de la misma manera cada data center está diseñado y ajustado a los requerimientos organizacionales con el fin de responder adecuadamente a las necesidades de sus usuarios; realizar un seguimiento a la infraestructura tecnológica a través de bitácoras manuales ralentiza los procesos y por consiguiente se convierte en una metodología tediosa, por tanto, esto impide tener datos en tiempo real del estado del centro de datos y no facilita su consulta, almacenamiento y control.
 
     p.mt-3 Lo fundamental a la hora de implementar un data center es pensar en cómo se puede hacer monitoreo automáticamente, algunos de los sistemas que nos permiten realizarlo son:
-  
+
+    h4.text-center Sistemas de monitoreo de un data center
+
     .puntos-calientes-02
       .row.justify-content-around.align-items-center.mt-3.mb-3
         .col-lg-8
@@ -145,8 +144,8 @@
               p Monitoreo UPS, equipos activos                 
 
 
-    #t_1_3.titulo-segundo.color-acento-contenido.mt-5
-      h2 1.3 Niveles de Operación de los componentes de monitoreo
+    .row.mt-5
+      h3 Niveles de Operación de los componentes de monitoreo
 
     p.mt-3 A continuación, se describen los niveles de operación que componen el monitoreo en el centro de datos para su correcto funcionamiento.
     p.mt-3 Niveles de operación
@@ -183,8 +182,8 @@
             p.mb-2 Los datos son recibidos directamente desde los controladores y se almacenan para permitir la creación de reportes a través del software.
             p Aplicativos que permiten realizar el monitoreo en tiempo real, además almacenan la información para su posterior consulta. 
 
-    #t_1_4.titulo-segundo.color-acento-contenido.mt-5
-      h2 1.4 Sistemas de administración del centro de datos
+    .row.mt-5
+      h3 Sistemas de administración del centro de datos
 
     p.mt-4 En la siguiente ilustración se mencionan las características de los 3 sistemas que conforman la administración del data center.
     
@@ -209,13 +208,13 @@
               ul.color-i
                 li
                   i.fas.fa-check
-                  | <b> ITSM IT Service Management</b> o Administración de Servicios TI.
+                  | <b> ITSM <em>IT Service Management</em></b> o Administración de Servicios TI.
                 li
                   i.fas.fa-check
-                  | DCIM <b>Data Center Infrastructure Management</b> o Gestión de la Infraestructura del Centro de Datos.
+                  | DCIM <b><em>Data Center Infrastructure Management</em></b> o Gestión de la Infraestructura del Centro de Datos.
                 li
                   i.fas.fa-check
-                  | BMS <b> Building Management System</b> o sistemas de gestión de edificios.                                       
+                  | BMS <b> <em>Building Management System</em></b> o sistemas de gestión de edificios.                                       
 
           a.boton(:href="obtenerLink('/downloads/sistemas-gestion-TI.pdf')" target="_blank" type="application/pdf")
             span Descargar
