@@ -57,24 +57,24 @@
     .tarjeta.tarjeta--azul.p-4
       .slyderA-01
         SlyderA(tipo="b")
-          .row
+          .row.justify-content-center
             .col-md-6.mb-4.mb-md-0
               h5 Redes de datos
               p.mb-2  Aplicativos que permiten simular redes de datos con el fin de conocer su operación, equipos e infraestructura necesarias para su funcionamiento.
               p.mb-2 Ejemplos de herramientas de Simulación:
               p NetSim, Jimsim, KivaNS, Network Simulator, OMNET ++, Packet Tracer, OPNET Modeler, RouterSim Network Simulators, Toggit y WebNMS Simulación Toolkit, CORE, IMUNES., etc.
 
-            .col-md-6
+            .col-md-5
               figure
                 img(src='@/assets/curso/temas/tema2/tema2-img-06.png', alt='Texto que describa la imagen')(data-aos="zoom-out-down")
 
           .row.justify-content-center.align-items-center.my-lg-4
             .col-md-6.mb-4.mb-md-0
               h5 Virtualización
-              p.mb-3 Una máquina virtual permite tener un equipo host dentro de otro, es decir; un equipo físico se puede convertir en cuantos sea necesario según su arquitectura de hardware. Por lo tanto, a través de la virtualización un administrador TI puede tener la réplica del equipo principal en una máquina virtual y garantizar la continuidad en la operación del sistema ante cualquier anomalía
+              p.mb-3 Una máquina virtual permite tener un equipo <em>host</em> dentro de otro, es decir; un equipo físico se puede convertir en cuantos sea necesario según su arquitectura de <em>hardware</em>. Por lo tanto, a través de la virtualización un administrador TI puede tener la réplica del equipo principal en una máquina virtual y garantizar la continuidad en la operación del sistema ante cualquier anomalía
               p.mb-3 Ejemplos de herramientas de simulación:
               p Synology Virtual Machine Manager, Docker, VirtualBox, Azure, VMware Workstation Player / Pro, Parallels Desktop, Hyper-V, Windows Sandbox, VMware vSphere Enterprise, Citrix XenServer Free Edition, Proxmox, KVMetc.
-            .col-md-6
+            .col-md-5
               figure
                 img(src='@/assets/curso/temas/tema2/tema2-img-07.png', alt='Texto que describa la imagen')(data-aos="zoom-out-down")
 
@@ -83,9 +83,7 @@
               h5 Cargas eléctricas
               p.mb-3 Permiten conocer el campo eléctrico y el potencial requerido para la implementación de un sistema. Para los ejemplos, aunque algunas herramientas no son simulaciones, sí permiten conocer las variables que hacen parte del sistema eléctrico y garantizan que al momento de diseñar la infraestructura tecnológica se puedan controlar todas las variables.
               p.mb-3 Ejemplos de herramientas de simulación:
-              p.mb-0 PhET, electrical formulator, metal prices, electrical calculations lite, topmatic,
-              p.mb-0 two thirty volts, calculadora de costes de energía, electrotecnia (pack),
-              p ley de ohm-calc, calculadora de caída de tensión, everycircuit, icircuit, ecomatic, home electrical safety check.
+              p.mb-0 PhET, <em>electrical formulator, metal prices, electrical calculations lite, topmatic,  two thirty volts, calculadora de costes de energía, electrotecnia (pack), ley de ohm-calc, calculadora de caída de tensión, everycircuit, icircuit, ecomatic, home electrical safety check.</em>
             .col-md-6
               figure
                 img(src='@/assets/curso/temas/tema2/tema2-img-08.png', alt='Texto que describa la imagen')(data-aos="zoom-out-down")

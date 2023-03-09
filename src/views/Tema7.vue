@@ -23,7 +23,7 @@
       .slyderA-02
         SlyderA(tipo="b")
           .row
-            .col-md-6.mb-4.mb-md-0
+            .col-md-5.mb-4.mb-md-0
               h5.mb-2 Registro histórico 
               p Las bitácoras tienen la función de guardar el día a día como un registro histórico que garantiza el seguimiento y control, se encuentra siempre organizado de manera cronológica y su consulta debe ser de fácil acceso. 
             .col-md-6
@@ -31,7 +31,7 @@
                 img(src='@/assets/curso/temas/tema7/tema7-img-03.png', alt='Texto que describa la imagen')(data-aos="fade-right")
 
           .row.justify-content-center.align-items-center.my-lg-4
-            .col-md-6.mb-4.mb-md-0
+            .col-md-5.mb-4.mb-md-0
               h5.mb-2 Recopilar datos
               p En el campo de Infraestructuras TI, las bitácoras son de gran ayuda, permiten recopilar los históricos de cada dispositivo y así administrarlo para prevenir y/o corregir fallas que puedan afectar al sistema.
             .col-md-6
@@ -39,7 +39,7 @@
                 img(src='@/assets/curso/temas/tema7/tema7-img-04.png', alt='Texto que describa la imagen')(data-aos="fade-right")
 
           .row.justify-content-center.align-items-center.my-lg-4
-            .col-md-6.mb-4.mb-md-0
+            .col-md-5.mb-4.mb-md-0
               h5.mb-2 Hoja de mantenimiento
               p Para dar un ejemplo de uso, si en la infraestructura TI ocurre un siniestro y es necesario acudir a la aseguradora para recuperar los activos que se vieron afectados, ésta solicitará al administrador TI la bitácora o hoja de mantenimiento de los mismos para garantizar su correcto uso, actividades de mantenimiento y reparaciones hechas; así podrá calcular el valor actual de cada dispositivo y proyectarlo de acuerdo a los criterios de la póliza, ofreciendo una compensación monetaria que permita recuperarlos nuevamente. 
             .col-md-6
@@ -47,7 +47,7 @@
                 img(src='@/assets/curso/temas/tema7/tema7-img-05.png', alt='Texto que describa la imagen')(data-aos="fade-right")
 
           .row.justify-content-center.align-items-center.my-lg-4
-            .col-md-6.mb-4.mb-md-0
+            .col-md-5.mb-4.mb-md-0
               h5.mb-2 Inventarios
               p Con respecto a los inventarios no solo permiten conocer la cantidad de dispositivos tiene una organización, su ubicación, valor de compra y depreciación; también una correcta gestión de inventarios garantiza la correcta administración de la infraestructura física de la organización y su futuro éxito.
             .col-md-6              
@@ -55,7 +55,7 @@
                 img(src='@/assets/curso/temas/tema7/tema7-img-06.png', alt='Texto que describa la imagen')(data-aos="fade-right")
 
           .row.justify-content-center.align-items-center.my-lg-4
-            .col-md-6.mb-4.mb-md-0
+            .col-md-5.mb-4.mb-md-0
               h5.mb-3 Registro de bienes
               p Inventario hace referencia a un documento o aplicación en el cual se registran todos los bienes tangibles e intangibles de la empresa, así en cada momento se conoce el patrimonio de la organización.
             .col-md-6
@@ -236,7 +236,7 @@
 
           .row(numero="4" titulo="UEPS")
             .col-md-6.mb-4.mb-md-0
-              p.text-small Priorización de ventas según el orden de ingreso de los artículos en stock.
+              p.text-small Priorización de ventas según el orden de ingreso de los artículos en <em>stock</em>.
           
             .col-md-6
               figure
@@ -269,8 +269,17 @@
     .row.mt-5
       h3 Sistema de control de inventarios
 
+    .row.align-items-center.mt-3 
+      .col-lg-1
+      .col-lg-6
+        a.anexo.mb-4.mb-lg-0(href="https://www.google.com/url?client=internal-element-cse&cx=17378af97b20a9ddf&q=https://www.lospatios-nortedesantander.gov.co/Conectividad/InformesGEL/Matriz%2520de%2520Inventario%2520Activos%2520de%2520Informaci%25C3%25B3n%25202016.xlsx&sa=U&ved=2ahUKEwjVxpDPxOz5AhXWmIQIHW0OAb4QFnoECAcQAQ&usg=AOvVaw3p-XH2TGFkKA_eqdkq77C9" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p.mb-0 <b>Enlace web</b>. Alcaldía de los patios. (2016). Matriz de inventario de activos de información, 
 
-    .row.justify-content-around.align-items-center.mt-3 
+
+    .row.justify-content-around.align-items-center.mt-5
       .col-lg-9
         .cajon.color-primario1.p-4
           p.mb-2 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo, como son la síntesis, la actividad didáctica, material complementario, entre otros.

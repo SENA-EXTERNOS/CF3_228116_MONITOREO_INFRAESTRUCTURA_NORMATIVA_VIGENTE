@@ -37,7 +37,7 @@ export default {
       },
       {
         clases: ['banner-principal-decorativo-8'],
-        imagen: require('@/assets/curso/portada/1.svg'),
+        //imagen: require('@/assets/curso/portada/1.svg'),
       },
     ],
   },
@@ -147,31 +147,34 @@ export default {
   complementario: [
     {
       tema: 'Decreto 284 de 15 febrero de 2018.',
-      referencia: 'Ministerio de Ambiente y desarrollo sostenible (2018)',
+      referencia:
+        'Decreto 284 de 2018 [Ministerio de Ambiente y Desarrollo Sostenible]. Por el cual se adiciona el Decreto 1076 de 2015, Único Reglamentario del Sector Ambiente y Desarrollo Sostenible, en lo relacionado con la Gestión Integral de los Residuos de Aparatos Eléctricos y Electrónicos - RAEE Y se dictan otras disposiciones. 15 de febrero de 2018.',
       tipo: 'Decreto',
       link:
         'http://es.presidencia.gov.co/normativa/normativa/DECRETO%20284%20DEL%2015%20FEBRERO%20DE%202018.pdf ',
     },
     {
       tema:
-        'Ley 1672 del 19 de julio de 2013, “Establece los lineamientos para la adopción de una política pública de gestión integral de residuos de aparatos eléctricos y electrónicos RAEE y se dictan otras disposiciones.',
-      referencia: 'Congreso De La República Colombia. (2013).',
+        'Ley 1672 del 19 de julio de 2013, <i>“Establece los lineamientos para la adopción de una política pública de gestión integral de residuos de aparatos eléctricos y electrónicos RAEE y se dictan otras disposiciones.</i>',
+      referencia:
+        'Ley de 1672 de 2013. Por la cual se establecen los lineamientos para la adopción de una poútica pública de gestión integral de residuos de aparatos eléctricos y electrónicos (raee), y se dictan otras disposiciones.19 de julio de 2013. D.O. No. 48856.',
       tipo: 'Ley',
       link:
         'https://www.minambiente.gov.co/wp-content/uploads/2021/06/ley-1672-2013.pdf',
     },
     {
-      tema: 'Infografía. Normatividad Ambiental Vigente en Colombia. ',
+      tema: '<em>Infografía. Normatividad Ambiental Vigente en Colombia.</em> ',
       referencia:
-        'Normatividad Ambiental Vigente en Colombia 2022 - Biblioteca SST. (2020). Biblioteca Virtual de Seguridad y Salud en el Trabajo; Biblioteca Virtual SST. ',
-      tipo: 'Infografía',
+        'De Seguridad y Salud. (s.f). <em>Normatividad ambiental en Colombia.</em>',
+      tipo: 'Página web',
       link:
         'https://deseguridadysalud.com/normatividad-ambiental-en-colombia/#:~:text=DECRETO%201443%20DE%202004,a%20la%20normatividad%20ambiental%20Colombiana',
     },
     {
-      tema: 'Ergonomía de la Oficina, Universidad de JAÉN.',
-      referencia: 'UJAEN. (2022) ',
-      tipo: 'Guías',
+      tema: '<em>Ergonomía de la Oficina, Universidad de JAÉN.</em>',
+      referencia:
+        'Universidad de Jaén. (s.f.). Ergonomía de la oficina. Recuperado de',
+      tipo: 'PDF',
       link:
         'https://www.ujaen.es/servicios/utecnica/sites/servicio_utecnica/files/uploads/prevencion/ergonomia%20de%20la%20oficina.pdf ',
     },
@@ -230,37 +233,38 @@ export default {
   referencias: [
     {
       referencia:
-        'Libro - Barría Huidobro, C. (2020). Nuevos espacios de seguridad nacional: Cómo proteger la información en el ciberespacio.',
+        'Libro - Barría Huidobro, C. (2020). <em>Nuevos espacios de seguridad nacional: Cómo proteger la información en el ciberespacio.</em>',
       link: '',
     },
     {
       referencia:
-        'Libro - Baud, J. (2017). ITIL® V3 : Preparación a la certificación ITIL® Foundation V3 (2ª edición. ed., Certificaciones). Barcelona: Ediciones ENI.',
+        'Libro - Baud, J. (2017). ITIL® V3 : <em>Preparación a la certificación ITIL® Foundation V3 (2ª edición. ed., Certificaciones).</em> Barcelona: Ediciones ENI.',
       link: '',
     },
     {
       referencia:
-        'Libro - Cifuentes Olarte, A. et al.(2018). Sistema de gestión y de seguridad y salud en el trabajo: Qué es y cómo aplicarlo en cualquier empresa Lineamientos legales básicos y Guía Técnica (Primera edición. ed., Área. Seguridad y salud en el trabajo)',
+        'Libro - Cifuentes Olarte, A. et al.(2018). <em>Sistema de gestión y de seguridad y salud en el trabajo: Qué es y cómo aplicarlo en cualquier empresa Lineamientos legales básicos y Guía Técnica (Primera edición. ed., Área. Seguridad y salud en el trabajo).</em>',
       link: '',
     },
     {
       referencia:
-        'Libro - Païola, P. (2021). Microsoft Azure: Gestione su Sistema de Información en la Nube (Recursos Informáticos). Barcelona: Ediciones ENI',
+        'Libro - Païola, P. (2021). <em>Microsoft Azure: Gestione su Sistema de Información en la Nube (Recursos Informáticos)</em>. Barcelona: Ediciones ENI',
       link: '',
     },
     {
       referencia:
-        'Libro - Poggioli, Jean-Paul, and Joël Demasson (2021). Gestión De Un Sistema De Información: Método Y Buenas Prácticas. Ediciones ENI.. Recursos Informáticos. Web.',
+        'Libro - Poggioli, Jean-Paul, and Joël Demasson (2021). <em>Gestión De Un Sistema De Información: Método Y Buenas Prácticas.</em> Ediciones ENI.',
       link: '',
     },
     {
       referencia:
-        'Material legal - Política Nacional: Gestión integral de residuos de aparatos eléctricos y electrónicos. (2017). Bogotá: Ministerio de Ambiente y Desarrollo Sostenible.',
-      link: '',
+        'Material legal - Ministerio de Ambiente y Desarrollo Sostenible. (2017). Política Nacional: </em>Gestión integral de residuos de aparatos eléctricos y electrónicos.</em>',
+      link:
+        'https://archivo.minambiente.gov.co/images/AsuntosambientalesySectorialyUrbana/pdf/e-book_rae_/contenido_4_1.html',
     },
     {
       referencia:
-        'Libro - Torres Matiz, A. et al.(2018). Gestión de la seguridad y salud en el trabajo: Manual práctico para la implementación de los estándares mínimos (Primera edición. ed.). Legis Editores.',
+        'Libro - Torres Matiz, A. et al.(2018). <em>Gestión de la seguridad y salud en el trabajo: Manual práctico para la implementación de los estándares mínimos</em> (Primera edición. ed.). Legis Editores.',
       link: '',
     },
   ],

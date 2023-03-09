@@ -7,7 +7,7 @@
         span 1
       h1 Establecer procesos de monitoreo
 
-    p.mb-3.index-dos Conocer las principales causas de fallas en el centro de datos permite prevenirlas y garantizan la continuidad del servicio, según estadísticas del Instituto Ponemon, algunas razones son: “fallas en UPS, hackers, errores humanos, problemas en el aire acondicionado y sistemas climáticos, fallas en la planta de emergencia y fallas en los equipos de TI”, todas ellas asociadas a la infraestructura tecnológica.
+    p.mb-3.index-dos Conocer las principales causas de fallas en el centro de datos permite prevenirlas y garantizan la continuidad del servicio, según estadísticas del Instituto Ponemon, algunas razones son: “fallas en UPS, <em>hackers</em>, errores humanos, problemas en el aire acondicionado y sistemas climáticos, fallas en la planta de emergencia y fallas en los equipos de TI”, todas ellas asociadas a la infraestructura tecnológica.
     
     img(src='@/assets/curso/temas/tema1/tema1-img-decorativa-01.svg', alt='Texto que describa la imagen').tema1-decorativa-01
 
@@ -15,9 +15,9 @@
       .col-lg-6
       figure.p-3
         img(src='@/assets/curso/temas/tema1/tema1-img-01.png', alt='Texto que describa la imagen')(data-aos="flip-left")
-      .col-lg-6
-        .clr.crd-paleBlue(data-aos="flip-left")
-          p.posicion-texto-crd.mt-3.mb-3 Se requiere reconocer que el tiempo en el que se encuentre fuera el sistema de información directamente está relacionado con pérdidas y hasta tanto las organizaciones no tengan presente este principio, no darán la importancia que merece el centro de datos como columna vertebral de la infraestructura tecnológica, pues en él se encuentran ubicados todos los componentes que permiten que los sistemas de información operan. 
+      .col-lg-7
+        .crd-paleBlue(data-aos="flip-left").p-3
+          p.mb-0 Se requiere reconocer que el tiempo en el que se encuentre fuera el sistema de información directamente está relacionado con pérdidas y hasta tanto las organizaciones no tengan presente este principio, no darán la importancia que merece el centro de datos como columna vertebral de la infraestructura tecnológica, pues en él se encuentran ubicados todos los componentes que permiten que los sistemas de información operan. 
 
     img(src='@/assets/curso/temas/tema1/tema1-img-decorativa-02.svg', alt='Texto que describa la imagen').tema1-decorativa-02
     img(src='@/assets/curso/temas/tema1/tema1-img-decorativa-03.svg', alt='Texto que describa la imagen').tema1-decorativa-03
@@ -48,10 +48,10 @@
               p Reducir los incidentes.
       
             .tarjeta.color-blanco4.p-3(x="56.8%" y="6%" numero="4")
-              p Reducir la saturación y/o congestión en la red.
+              p Evitar ataques al sistema informático. 
             
             .tarjeta.color-blanco5.p-3(x="70.3%" y="94%" numero="5")
-              p Evitar ataques al sistema informático. 
+              p Reducir la saturación y/o <br>congestión en la red.
             
             .tarjeta.color-blanco6.p-3(x="84.3%" y="6%" numero="6")
               p Garantizar la disponibilidad de la red. 
@@ -68,7 +68,7 @@
             figure
               img(src="@/assets/curso/temas/tema1/tema1-img-07.png", alt="alt")
           .crd_hover_txt--body.tam-body
-            h4.mb-3 Infraestructura TI
+            h5.mb-5 Infraestructura TI
             p.mb-0 Dispositivos de red que permiten la comunicación entre equipos y que a su vez hacen parte de la Infraestructura TI.
             p Ejemplos: #[i switches, router, servidores, firewall], etc.
 
@@ -78,7 +78,7 @@
             figure
               img(src="@/assets/curso/temas/tema1/tema1-img-08.png", alt="alt")
           .crd_hover_txt--body.tam-body
-            h4.posicion-body.mb-3 Aplicaciones y servicios requeridos para el funcionamiento del sistema organizacional.  
+            h5.posicion-body.mb-3 Aplicaciones y servicios requeridos para el funcionamiento del sistema organizacional.  
             p Ejemplos: Servidores Web, Servidores SQL, Servidores Correo,  Sistemas de Seguridad, Aplicaciones Web, etc. 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt
@@ -86,7 +86,7 @@
             figure
               img(src="@/assets/curso/temas/tema1/tema1-img-09.png", alt="alt")
           .crd_hover_txt--body.body-tel
-            h4.mb-3 Entorno del centro de datos
+            h5.mb-5 Entorno del centro de datos
             p.mb-2 Instalaciones que se realizan directamente sobre la infraestructura del centro de datos y permiten su control y monitoreo.
             p.pos-texto-h Ejemplo: sensores de movimiento, temperatura, humedad, humo. Cámaras de seguridad, UPS, control de accesos, etc.
 
@@ -123,25 +123,25 @@
               figure
                 img(src='@/assets/curso/temas/tema1/tema1-img-11.png', alt='Texto que describa la imagen')
             .tarjeta.color-blanco1.p-3(x="45.5%" y="5%" numero="1")
-              p CCTV (Circuito Cerrado de Televisión)
+              p CCTV (Circuito Cerrado de Televisión).
 
             .tarjeta.color-blanco2.p-3(x="83%" y="17%" numero="2")
-              p Control de acceso
+              p Control de acceso.
 
             .tarjeta.color-blanco3.p-3(x="97.5%" y="55%" numero="3")
-              p Sistemas de intrusión
+              p Sistemas de intrusión.
       
             .tarjeta.color-blanco4.p-4(x="81.5%" y="82%" numero="4")
-              p Sistema de detección de fuego
+              p Sistema de detección de fuego.
             
             .tarjeta.color-blanco5.p-3(x="27.3%" y="92%" numero="5")
-              p Control de Iluminación 
+              p Control de Iluminación. 
             
             .tarjeta.color-blanco6.p-3(x="4.3%" y="66%" numero="6")
-              p Control de temperatura
+              p Control de temperatura.
 
             .tarjeta.color-blanco7.p-3(x="3%" y="33%" numero="7")
-              p Monitoreo UPS, equipos activos                 
+              p Monitoreo UPS, equipos <br>activos.                 
 
 
     .row.mt-5
@@ -157,7 +157,7 @@
             figure
               img(src="@/assets/curso/temas/tema1/tema1-img-12.png", alt="alt")
           .crd_hover_txt--body
-            h4.text-center.mb-3 Elementos de campo 
+            h4.text-center.mb-3.mt-2 Elementos de campo 
             p.mb-0 Elementos que se encuentran en contacto directo con las variables. 
             p Sensores, actuadores, variadores de velocidad, detectores de humo, lectores de tarjetas, cámaras de vídeo, etc.
 
@@ -168,7 +168,7 @@
             figure
               img(src="@/assets/curso/temas/tema1/tema1-img-13.png", alt="alt")
           .crd_hover_txt--body
-            h4.text-center.mb-3 Controladores procesadores
+            h4.text-center.mb-3.mt-2 Controladores procesadores
             p.mb-2 Equipos que se instalan en los sitios diseñados para su alojamiento. 
             p Dispositivos que cuentan con memoria y capacidad de procesar datos. 
 
@@ -178,7 +178,7 @@
             figure
               img(src="@/assets/curso/temas/tema1/tema1-img-14.png", alt="alt")
           .crd_hover_txt--body
-            h4.text-center.mb-3 Software
+            h4.text-center.mb-3.mt-2 Software
             p.mb-2 Los datos son recibidos directamente desde los controladores y se almacenan para permitir la creación de reportes a través del software.
             p Aplicativos que permiten realizar el monitoreo en tiempo real, además almacenan la información para su posterior consulta. 
 
@@ -239,8 +239,8 @@ export default {
         imagen: require('@/assets/curso/temas/tema1/tema1-img-02.png'),
       },
       {
-        titulo: 'Hackers',
-        texto: 'Humanos: hackers, errores humanos.',
+        titulo: '<em>Hackers</em>',
+        texto: 'Humanos: <em>hackers</em>, errores humanos.',
         imagen: require('@/assets/curso/temas/tema1/tema1-img-03.png'),
       },
       {

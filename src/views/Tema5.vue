@@ -23,8 +23,8 @@
                   h3.color-blanco.mb-3  Seguridad y Salud en el Trabajo
                   p.color-blanco.mb-5.text-small Para ampliar los conceptos sobre SST consultar el siguiente vídeo:
                   p.color-blanco.mb-1.text-small Ecosistema de Recursos Educativos Digitales SENA, E. (2022). Seguridad y salud en el trabajo (SST)
-                .col-sm-auto
-                  a.boton.color-acento-contenido.texto-blanco(href="https://www.youtube.com/watch?v=87fQFljT7OQ" target="_blank")
+                .col-sm-auto.d_ind
+                  a.boton.color-acento-contenido.texto-blanco(href="https://www.youtube.com/embed/87fQFljT7OQ" target="_blank")
                     span Enlace Web
                     i.fas.fa-paperclip
 

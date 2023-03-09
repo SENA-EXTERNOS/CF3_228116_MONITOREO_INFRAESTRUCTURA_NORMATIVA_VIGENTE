@@ -19,7 +19,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/tema3-img-01.svg')})`}"
       )
       .bloque-texto-g__texto.p-2
-        p.mb-0 Al momento de percatarse de una falla del equipo de cómputo que le permite acceder al sistema de información, un usuario registra un #[i ticket] solicitando apoyo para su reparación, mismo que llega directamente al equipo de mesa de ayuda y este a su vez, realiza la asignación de acuerdo con su prioridad; el técnico delegado para resolver el ticket contacta al usuario, realizan un acuerdo para la revisión e inmediatamente trabaja en función de su solución. 
+        p.mb-0 Al momento de percatarse de una falla del equipo de cómputo que le permite acceder al sistema de información, un usuario registra un #[i ticket] solicitando apoyo para su reparación, mismo que llega directamente al equipo de mesa de ayuda y este a su vez, realiza la asignación de acuerdo con su prioridad; el técnico delegado para resolver el <i>ticket</i> contacta al usuario, realizan un acuerdo para la revisión e inmediatamente trabaja en función de su solución. 
 
     .row.mt-5
       h3 Servicio <em>HelpDesk</em>
@@ -29,7 +29,7 @@
           AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
             .row(titulo="Reparación del equipo dañado")
               .col-md-12.mb-4.mb-md-0
-                p Las recomendaciones de ASHRAE permiten tener indicadores de seguimiento y control para los data center, por citar un ejemplo el desempeño del enfriamiento está regulado por la métrica PUE (Power Usage Effectiveness) que mide la eficiencia energética de la infraestructura del data center.
+                p El técnico requiere de insumos para reparar el equipo, así que instala la contingencia, solicita al departamento de compras el repuesto y una vez llega, resuelve el incidente en el equipo, acuerda nuevamente con el usuario la instalación del equipo principal, documenta el proceso de solución del <i>ticket</i> y lo finaliza; por último, el usuario hará una calificación del servicio al técnico.                                 
 
             .row(titulo="Análisis de solución del requerimiento")
               .col-md-12.mb-4.mb-md-0
@@ -87,7 +87,7 @@
       .col-lg-5
         img(src='@/assets/curso/temas/tema3/tema3-img-02.svg' alt='AvatarTop')(data-aos="flip-right") 
 
-    p.mt-3 Las recomendaciones de ASHRAE permiten tener indicadores de seguimiento y control para los data center, por citar un ejemplo el desempeño del enfriamiento está regulado por la métrica PUE (#[i Power Usage Effectiveness]) que mide la eficiencia energética de la infraestructura del data center.
+    p.mt-3 Las recomendaciones de ASHRAE permiten tener indicadores de seguimiento y control para los data center, por citar un ejemplo el desempeño del enfriamiento está regulado por la métrica PUE (#[i Power Usage Effectiveness]) que mide la eficiencia energética de la infraestructura del <i>data center</i>.
     
     .row.mt-5
       h3 Indicadores de seguimiento y control
@@ -160,7 +160,7 @@
                       li
                         i.fas.fa-check
                         |             Equipo TI encargado de realizar las actividades y la cantidad de actividades resueltas en un periodo de tiempo establecido.          
-            .row(titulo="Estadísticas data center")
+            .row(titulo="Estadísticas <em>data center</em>")
               .col-md-12.mb-4.mb-md-0
                 p Así, se podrán llevar datos estadísticos sobre el centro de datos y su funcionamiento, entender su dinámica y evitar fallas; también personalizar los indicadores de gestión del centro de datos de acuerdo a las dinámicas organizacionales propias de cada institución.
 </template>

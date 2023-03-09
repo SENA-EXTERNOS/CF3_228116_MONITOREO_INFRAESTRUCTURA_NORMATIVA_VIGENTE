@@ -138,16 +138,6 @@
 //tema1
 .crd-paleBlue
   background-color: #E4F8FB
-  width: 117%
-  height: 178px
-  position: relative
-  left: -90px
-  top: -7px
-  @media (max-width: 500px)
-    width: 100%
-    height: 275px
-    left: 0px
-    top: -29px
 
 .posicion-texto-crd
   position: relative
@@ -192,7 +182,7 @@
     p
       position: relative
       top: 175px
-      left: -143px
+      left: -113px
       @media (max-width: 500px)
         top: 89px
         left: 15px
@@ -304,7 +294,7 @@
     p
       position: relative
       top: -10px
-      left: -200px
+      left: -210px
       @media (max-width: 500px)        
         top: 42px
         left: -59px
@@ -312,7 +302,7 @@
     p
       position: relative
       top: -32px
-      left: -200px
+      left: -210px
       @media (max-width: 500px)
         top: -81px
         left: -35px
@@ -321,7 +311,7 @@
     p
       position: relative
       top: -27px
-      left: -263px    
+      left: -223px    
       @media (max-width: 500px)
         top: -100px
         left: -32px
@@ -345,7 +335,9 @@
 
   .crd_hover_txt--body
     position: absolute
-    padding: 1.5rem
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+    padding-top: 1.0rem
     bottom: 0    
     transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
     transform: translateY(calc( 100% - 3.85rem ))
@@ -874,7 +866,7 @@
 .tema7-decorativa-02
   position: absolute
   top: 67.5%
-  left: 86%
+  left: 91%
   width: 7.8%
   @media (max-width: 500px)
     top: 79.5%
@@ -910,4 +902,11 @@
 
 .banner-principal__img
   width: 400px !important
-    
+  
+
+@media (min-width: 576px)
+  .banner-principal__row .banner-principal__img 
+      padding-right: 1rem !important
+
+.d_ind
+  z-index: 3

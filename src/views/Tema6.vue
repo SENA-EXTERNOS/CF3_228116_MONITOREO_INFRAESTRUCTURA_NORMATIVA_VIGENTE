@@ -10,7 +10,7 @@
     .row.justify-content-around.align-items-center.mt-3 
       .col-lg-9
         .cajon.color-primario1.p-4
-          p.mb-2 Según informes internacionales, “los ataques a los sistemas de información utilizando malware aumentaron en un 150%, garantizar la seguridad informática en la plataforma tecnológica de la empresa es vital para el funcionamiento de la organización”. 
+          p.mb-2 Según informes internacionales, “los ataques a los sistemas de información utilizando <i>malware</i> aumentaron en un 150%, garantizar la seguridad informática en la plataforma tecnológica de la empresa es vital para el funcionamiento de la organización”. 
 
           p Para ilustrar mejor la información anterior, puede consultar el siguiente enlace:
 
@@ -31,14 +31,14 @@
 
     .row.justify-content-around.align-items-center.mt-5
       .col-lg-7
-        p.mb-2 Así como en COBIT e ITIL se aplican buenas prácticas en el uso de los sistemas de información para evitar los “riesgos” en los que puede caer la infraestructura tecnológica de la organización, se darán a continuación algunos criterios de seguridad para el software y la red de datos que permiten mejorar e incrementar la protección del sistema. 
+        p.mb-2 Así como en COBIT e ITIL se aplican buenas prácticas en el uso de los sistemas de información para evitar los “riesgos” en los que puede caer la infraestructura tecnológica de la organización, se darán a continuación algunos criterios de seguridad para el <i>software</i> y la red de datos que permiten mejorar e incrementar la protección del sistema. 
 
-        p Algunos de los criterios de seguridad del software son: 
+        p Algunos de los criterios de seguridad del <i>software</i> son: 
 
       .col-lg-5
         img(src='@/assets/curso/temas/tema6/tema6-img-01.svg', alt='Texto que describa la imagen')(data-aos="fade-left") 
 
-    p.mt-3 Criterios de seguridad del software
+    p.mt-3 Criterios de seguridad del <i>software</i>
 
     .puntos-calientes-t6.mt-3.mb-3
       .row.justify-content-around.align-items-center.mt-4  
@@ -54,7 +54,7 @@
 
             .tarjeta.color-blanco2.p-3(x="31.8%" y="39%" numero="")
               h5.mt-3 Antivirus y #[i firewall]:
-              p Proteger el sistema utilizando software especializado, para ello incrementa los niveles de seguridad, la combinación de un antivirus con un firewall reduce los riesgos de ataques informáticos y garantiza la disponibilidad del software o programas del sistema. También se puede contar con un antispam para evitar al máximo correos y mensajes con código malicioso que pueda afectar el funcionamiento del sistema de información. 
+              p Proteger el sistema utilizando <i>software</i> especializado, para ello incrementa los niveles de seguridad, la combinación de un antivirus con un <i>firewall</i> reduce los riesgos de ataques informáticos y garantiza la disponibilidad del <i>software</i> o programas del sistema. También se puede contar con un antispam para evitar al máximo correos y mensajes con código malicioso que pueda afectar el funcionamiento del sistema de información. 
 
             .tarjeta.color-blanco3.p-3(x="51.2%" y="39%" numero="")
               h5.mt-3 Cifrado de información:
@@ -66,7 +66,7 @@
 
             .tarjeta.color-blanco5.p-3(x="90.3%" y="39%" numero="")
               h5.mt-3 Proteger el sistema:
-              p Incrementar los niveles de protección, encriptar la información, crear niveles de acceso, implementar software antivirus, proteger el sistema a través de monitoreo, entre otros; permiten incrementar los niveles de seguridad, pero si el software como tal no es seguro, no vendrá bien todo el esfuerzo hecho con los demás elementos que integran al sistema; por lo tanto, el mismo software deberá contar con niveles de seguridad suficientes para protegerse ante anomalías como caídas del sistema, accesos no permitidos y fallas en la operación.
+              p Incrementar los niveles de protección, encriptar la información, crear niveles de acceso, implementar <i>software</i> antivirus, proteger el sistema a través de monitoreo, entre otros; permiten incrementar los niveles de seguridad, pero si el <i>software</i> como tal no es seguro, no vendrá bien todo el esfuerzo hecho con los demás elementos que integran al sistema; por lo tanto, el mismo <i>software</i> deberá contar con niveles de seguridad suficientes para protegerse ante anomalías como caídas del sistema, accesos no permitidos y fallas en la operación.
 
     .row.justify-content-around.align-items-center.mt-3 
       .col-lg-9

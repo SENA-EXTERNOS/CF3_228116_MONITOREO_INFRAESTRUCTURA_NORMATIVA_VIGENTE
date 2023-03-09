@@ -42,7 +42,7 @@
                 li
                   i.fas.fa-check
                   | Régimen de aprovechamiento forestal y acuerdos regionales con este fin.
-            .col-md-6
+            .col-md-5
               figure
                 img(src='@/assets/curso/temas/tema4/tema4-img-02.png', alt='Texto que describa la imagen')(data-aos="flip-right")
 
@@ -50,7 +50,7 @@
             .col-md-6.mb-4.mb-md-0
               h5.mb-2 Normatividad ambiental
               p Es la encargada de regular las buenas prácticas que permiten garantizar la conservación del medio ambiente y la protección del ser humano. 
-            .col-md-6
+            .col-md-5
               figure
                 img(src='@/assets/curso/temas/tema4/tema4-img-03.png', alt='Texto que describa la imagen')(data-aos="flip-right")
 
@@ -63,7 +63,7 @@
 
               p.mb-2 Ley 1672 de 2013: expide los lineamientos para adoptar la política de gestión integral de residuos y aparatos eléctricos y electrónicos RAEE en Colombia.
 
-            .col-md-6
+            .col-md-5
               figure
                 img(src='@/assets/curso/temas/tema4/tema4-img-04.png', alt='Texto que describa la imagen')(data-aos="flip-right")
 
@@ -71,7 +71,7 @@
             .col-md-6.mb-4.mb-md-0
               h5.mb-3 Residuos electrónicos:
               p Tanto el decreto 248 como la ley 1672, regulan el manejo de residuos electrónicos y su clasificación según su disposición en elementos aprovechables y no aprovechables, es decir, para la disposición final de los residuos eléctricos y electrónicos, estos se deben clasificar y disponer en lugares especialmente seleccionados y diseñados para evitar la contaminación, daños y riesgos a la salud humana y al medio ambiente, la ley 1672 también advierte: “En todo caso, quedará prohibida la disposición de Residuos de Aparatos Eléctricos y Electrónicos RAEE en rellenos sanitarios”. 
-            .col-md-6              
+            .col-md-5           
               figure
                 img(src='@/assets/curso/temas/tema4/tema4-img-05.png', alt='Texto que describa la imagen')(data-aos="flip-right")
 
