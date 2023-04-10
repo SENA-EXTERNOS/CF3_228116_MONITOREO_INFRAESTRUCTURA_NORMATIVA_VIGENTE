@@ -76,7 +76,7 @@
     .row
       figure.mb-5.mt-3
         .video
-         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+         iframe(width="560" height="315" src="https://www.youtube.com/embed/ODHXTKN4-Ok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     h4.mt-4  Seguridad informática
     p.mt-3 Para conocer más información sobre medidas de seguridad informática consulte:
