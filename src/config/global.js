@@ -168,7 +168,7 @@ export default {
         'De Seguridad y Salud. (s.f). <em>Normatividad ambiental en Colombia.</em>',
       tipo: 'Página web',
       link:
-        'https://deseguridadysalud.com/normatividad-ambiental-en-colombia/#:~:text=DECRETO%201443%20DE%202004,a%20la%20normatividad%20ambiental%20Colombiana',
+        'https://www.minambiente.gov.co/lideres-ambientales/normativa-ambiental/',
     },
     {
       tema: '<em>Ergonomía de la Oficina, Universidad de JAÉN.</em>',

@@ -268,17 +268,6 @@
 
     .row.mt-5
       h3 Sistema de control de inventarios
-
-    .row.align-items-center.mt-3 
-      .col-lg-1
-      .col-lg-6
-        a.anexo.mb-4.mb-lg-0(href="https://www.google.com/url?client=internal-element-cse&cx=17378af97b20a9ddf&q=https://www.lospatios-nortedesantander.gov.co/Conectividad/InformesGEL/Matriz%2520de%2520Inventario%2520Activos%2520de%2520Informaci%25C3%25B3n%25202016.xlsx&sa=U&ved=2ahUKEwjVxpDPxOz5AhXWmIQIHW0OAb4QFnoECAcQAQ&usg=AOvVaw3p-XH2TGFkKA_eqdkq77C9" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-link.svg")
-          .anexo__texto
-            p.mb-0 <b>Enlace web</b>. Alcaldía de los patios. (2016). Matriz de inventario de activos de información, 
-
-
     .row.justify-content-around.align-items-center.mt-5
       .col-lg-9
         .cajon.color-primario1.p-4

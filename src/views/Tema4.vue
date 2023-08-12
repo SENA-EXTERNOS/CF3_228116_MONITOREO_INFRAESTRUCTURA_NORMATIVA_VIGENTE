@@ -88,7 +88,7 @@
     
     .row.mt-3
       .col-lg-8
-        a.anexo.mb-4.mb-lg-0(href="https://deseguridadysalud.com/normatividad-ambiental-en-colombia/" target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="https://www.minambiente.gov.co/lideres-ambientales/normativa-ambiental/" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
