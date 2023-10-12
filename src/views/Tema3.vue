@@ -37,27 +37,27 @@
                 ol.lista-ol--cuadro
                   li 
                     .lista-ol--cuadro__vineta
-                      span 1
+                      span A
                     | Tiempo en la asignación del servicio. 
                   li 
                     .lista-ol--cuadro__vineta
-                      span 2
+                      span B
                     | Tiempo en contactar al usuario. 
                   li 
                     .lista-ol--cuadro__vineta
-                      span 3
+                      span C
                     | Tiempo en la solución del servicio. 
                   li 
                     .lista-ol--cuadro__vineta
-                      span 4
+                      span D
                     p.mb-0 Costo del #[i ticket] (mano de obra, repuestos, etc.). 
                   li 
                     .lista-ol--cuadro__vineta
-                      span 5
+                      span E
                     | Calificación del servicio. 
                   li 
                     .lista-ol--cuadro__vineta
-                      span 6
+                      span F
                     | Cantidad de servicios atendidos por hora, día, mes, año, etc.                                                        
 
             .row(titulo="Puntos a mejorar")
@@ -87,7 +87,7 @@
       .col-lg-5
         img(src='@/assets/curso/temas/tema3/tema3-img-02.svg' alt='AvatarTop')(data-aos="flip-right") 
 
-    p.mt-3 Las recomendaciones de ASHRAE permiten tener indicadores de seguimiento y control para los data center, por citar un ejemplo el desempeño del enfriamiento está regulado por la métrica PUE (#[i Power Usage Effectiveness]) que mide la eficiencia energética de la infraestructura del <i>data center</i>.
+    p.mt-3 Las recomendaciones de ASHRAE permiten tener indicadores de seguimiento y control para los #[em data center], por citar un ejemplo el desempeño del enfriamiento está regulado por la métrica PUE (#[i Power Usage Effectiveness]) que mide la eficiencia energética de la infraestructura del <i>data center</i>.
     
     .row.mt-5
       h3 Indicadores de seguimiento y control
@@ -104,20 +104,19 @@
           AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             .row(titulo="Ambiente físico <i>data center</i>")
               .col-md-12.mb-4.mb-md-0
-                p.mb-2 Como explica Alfonso. G. (2016) 
-                p.mb-2 en su blog, este indicador tiene tres unidades como ejes centrales de operación:
+                p.mb-2 Como explica Alfonso. G. (2016) en su blog, este indicador tiene tres unidades como ejes centrales de operación:
                 ol.lista-ol--cuadro
                   li 
                     .lista-ol--cuadro__vineta
-                      span 1
+                      span A
                     | Razón PUE: define la banda de operación como representación del índice de eficiencia energética.
                   li 
                     .lista-ol--cuadro__vineta
-                      span 2
+                      span B
                     | Conformidad Térmica TI: toma la operación de los equipos TI a temperaturas y condiciones normales de funcionamiento. 
                   li 
                     .lista-ol--cuadro__vineta
-                      span 3
+                      span C
                     | Resiliencia Térmica TI: operación de equipos TI ante una eventualidad o mantenimiento del sistema de aire acondicionado.  
 
             .row(titulo="Estándares internacionales")
@@ -142,10 +141,7 @@
                         |             Costos de operación. 
                       li
                         i.fas.fa-check
-                        |             Cantidad de correctivos aplicados en un período de tiempo determinado. 
-                      li
-                        i.fas.fa-check
-                        |             etc.  
+                        |             Cantidad de correctivos aplicados en un período de tiempo determinado, etc.  
                   .col-lg-7
                     ul.color-i
                       li

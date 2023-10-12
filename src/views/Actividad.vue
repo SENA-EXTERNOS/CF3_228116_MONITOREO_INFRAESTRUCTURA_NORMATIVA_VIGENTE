@@ -14,17 +14,15 @@
             img(src="@/assets/template/relacion2.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-botones
-          h2  Monitoreo a la infraestructura T.I según normativa vigente.
-        p.mb-4 Colocar una pequeña introducción y la intencionalidad de esta evaluación.
-
-        p Relacione la descripción con el concepto según el material y el conocimiento adquirido.
+          h2  Monitoreo a la infraestructura TI según normativa vigente.
+        p.mb-4 Apreciado aprendiz, a continuación, encontrará una serie de preguntas que deberá resolver, con el objetivo de evaluar la aprehensión de los conocimientos expuestos en este componente formativo.
 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Relación de Conceptos
+              p.fw-bold.mb-0 Falso o Verdadero
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/index.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/story.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
 </template>

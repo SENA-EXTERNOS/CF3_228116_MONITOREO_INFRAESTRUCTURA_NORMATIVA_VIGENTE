@@ -16,7 +16,7 @@
           .bg-white.p-2
             p.p-3.mt-3.mb-3 La palabra Bitácora proviene del francés #[i Bitacle] y su principal uso fue en la vida marítima. Corresponde a un instrumento que se fijaba a la cubierta, cerca del timón y de la aguja náutica que facilitaba la navegación en océanos desconocidos, era un cuaderno donde se narraban todos los acontecimientos que se presentaban, así quedaba constancia de cada uno de ellos. En la actualidad obtuvieron gran apogeo gracias a los #[i weblogs] o blogs que son bitácoras virtuales publicadas en Internet.
 
-    p.mt-3 A continuación, se explica la importancia de tener registro de todos los eventos en las bitácoras donde se hace un regimiento y control en el campo de IT. 
+    p.mt-3 A continuación, se explica la importancia de tener registro de todos los eventos en las bitácoras donde se hace un regimiento y control en el campo de TI. 
 
 
     .tarjeta.tarjeta--azul.p-4
@@ -49,7 +49,7 @@
           .row.justify-content-center.align-items-center.my-lg-4
             .col-md-5.mb-4.mb-md-0
               h5.mb-2 Inventarios
-              p Con respecto a los inventarios no solo permiten conocer la cantidad de dispositivos tiene una organización, su ubicación, valor de compra y depreciación; también una correcta gestión de inventarios garantiza la correcta administración de la infraestructura física de la organización y su futuro éxito.
+              p Con respecto a los inventarios no solo permiten conocer la cantidad de dispositivos que tiene una organización, su ubicación, valor de compra y depreciación; también una correcta gestión de inventarios garantiza la correcta administración de la infraestructura física de la organización y su futuro éxito.
             .col-md-6              
               figure
                 img(src='@/assets/curso/temas/tema7/tema7-img-06.png', alt='Texto que describa la imagen')(data-aos="fade-right")
@@ -69,69 +69,69 @@
                   ol.lista-ol--cuadro
                     li 
                       .lista-ol--cuadro__vineta
-                        span 1
+                        span A
                       | Físicos.
                     li 
                       .lista-ol--cuadro__vineta
-                        span 2
+                        span B
                       | Intangibles.
                     li 
                       .lista-ol--cuadro__vineta
-                        span 3
+                        span C
                       | Materias Primas.
                     li 
                       .lista-ol--cuadro__vineta
-                        span 4
+                        span D
                       | Productos en proceso de fabricación.
                     li 
                       .lista-ol--cuadro__vineta
-                        span 5
+                        span E
                       | Productos Terminados.
                     li 
                       .lista-ol--cuadro__vineta
-                        span 6
+                        span F
                       | Suministros de fábrica.
                     li 
                       .lista-ol--cuadro__vineta
-                        span 7
+                        span G
                       | Seguridad o reserva.
                     li 
                       .lista-ol--cuadro__vineta
-                        span 8
+                        span H
                       | Desacoplamiento.                     
                 .col-lg-6
                   ol.lista-ol--cuadro
                     li 
                       .lista-ol--cuadro__vineta
-                        span 9
+                        span I
                       | En tránsito.
                     li 
                       .lista-ol--cuadro__vineta
-                        span 10
+                        span J
                       | De ciclo.
                     li 
                       .lista-ol--cuadro__vineta
-                        span 11
+                        span K
                       | Estacional.
                     li 
                       .lista-ol--cuadro__vineta
-                        span 12
+                        span L
                       | En ductos.
                     li 
                       .lista-ol--cuadro__vineta
-                        span 13
+                        span M
                       | Para la especulación.
                     li 
                       .lista-ol--cuadro__vineta
-                        span 14
+                        span N
                       | De naturaleza regular o cíclica.
                     li 
                       .lista-ol--cuadro__vineta
-                        span 15
+                        span O
                       | De seguridad.
                     li 
                       .lista-ol--cuadro__vineta
-                        span 16
+                        span P
                       | De existencias obsoletas.                    
 
             .col-md-6
@@ -151,7 +151,7 @@
               figure
                 img(src="@/assets/curso/temas/tema7/tema7-img-09.png", alt="alt")
             .crd_hover_txt--body
-              h5.text-center.mb-2 Tipo de Inventario
+              h5.text-center.mb-2 Tipo de inventario
               p.text-center Según su ubicación: físicos, intangibles.
 
         .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -160,7 +160,7 @@
               figure
                 img(src="@/assets/curso/temas/tema7/tema7-img-10.png", alt="alt")
             .crd_hover_txt--body
-              h5.text-center.mb-2 Tipo de Producto
+              h5.text-center.mb-2 Tipo de producto
               p.text-center Materias primas, productos en proceso de fabricación, productos terminados, suministros de fábrica.
 
         .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -170,7 +170,7 @@
                 img(src="@/assets/curso/temas/tema7/tema7-img-11.png", alt="alt")
             .crd_hover_txt--body
               h5.text-center.mb-2 De acuerdo a su función
-              p.text-center De acuerdo a su función: seguridad o reserva, desacoplamiento, en tránsito, de ciclo, estacional. 
+              p.text-center Seguridad o reserva, desacoplamiento, en tránsito, de ciclo, estacional. 
         .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
           .crd_hover_txt
             .crd_hover_txt--img
@@ -183,8 +183,8 @@
     .row.mt-5
       h3 Paso a paso para implementar un inventario
 
-    img(src='@/assets/curso/temas/tema7/tema7-img-decorativa-01.svg', alt='Texto que describa la imagen').tema7-decorativa-01
-    img(src='@/assets/curso/temas/tema7/tema7-img-decorativa-02.svg', alt='Texto que describa la imagen').tema7-decorativa-02
+    //- img(src='@/assets/curso/temas/tema7/tema7-img-decorativa-01.svg', alt='Texto que describa la imagen').tema7-decorativa-01
+    //- img(src='@/assets/curso/temas/tema7/tema7-img-decorativa-02.svg', alt='Texto que describa la imagen').tema7-decorativa-02
 
     .row.justify-content-around.align-items-center.mt-5
       .col-lg-5
@@ -197,7 +197,7 @@
 
     .row.justify-content-center.align-items-center.mt-5.index-dos
       .col-10
-        img(src="@/assets/curso/temas/tema7/tema7-img-14.png")  
+        img(src="@/assets/curso/temas/tema7/tema7-img-14.svg")  
 
     .row.justify-content-around.align-items-center.mt-3 
       .col-lg-9
@@ -250,7 +250,7 @@
               figure
                 img(src='@/assets/curso/temas/tema7/tema7-img-19.svg', alt='Texto que describa la imagen')
 
-          .row(numero="6" titulo="Precio Ponderado")
+          .row(numero="6" titulo="Precio ponderado")
             .col-md-6.mb-4.mb-md-0
               p.text-small Se crea un promedio del lote sin importar su fecha de ingreso o salida. 
 
@@ -259,16 +259,28 @@
                 img(src='@/assets/curso/temas/tema7/tema7-img-20.svg', alt='Texto que describa la imagen')
 
 
-    .row.mt-5
-      h3 Actividad Integradora
+    .row.my-5
+      h3 Actividad integradora
 
       p Utilice las técnicas de comunicación escrita para crear un informe en el cual dé a conocer el inventario existente de la Alcaldía de los Patios del Norte de Santander, emita un concepto técnico según lo observado en donde pueda realizar una clasificación de los activos fijos tangibles e intangibles y de acuerdo con los sistemas de control de inventario, defina cuál sería el más apropiado para la alcaldía argumentando su respuesta. 
 
       p Técnicas de redacción y ortografía. 
-
-    .row.mt-5
-      h3 Sistema de control de inventarios
-    .row.justify-content-around.align-items-center.mt-5
+    .row.justify-content-center
+      .col-lg-10
+        .tarjeta.color-primario.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            //- .col-3.col-sm-2.col-lg-1
+            //-   img(src="@/assets/componentes/ej-02.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col-10.mb-3.mb-sm-0
+                  h3.mb-1 Sistema de control de inventarios
+                  p.text-small Alcaldía de los patios. (2016). Matriz de inventario de activos de información. 
+                .col.mb-3.mb-sm-0
+                  a.boton.color-acento-contenido(href="https://www.google.com/url?client=internal-element-cse&cx=17378af97b20a9ddf&q=https://www.lospatios-nortedesantander.gov.co/Conectividad/InformesGEL/Matriz%2520de%2520Inventario%2520Activos%2520de%2520Informaci%25C3%25B3n%25202016.xlsx&sa=U&ved=2ahUKEwjVxpDPxOz5AhXWmIQIHW0OAb4QFnoECAcQAQ&usg=AOvVaw3p-XH2TGFkKA_eqdkq77C9" target="_blank" type="application/pdf")
+                    span Abrir enlace
+                    i.fas.fa-link
+    .row.justify-content-around.align-items-center.mt-2
       .col-lg-9
         .cajon.color-primario1.p-4
           p.mb-2 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo, como son la síntesis, la actividad didáctica, material complementario, entre otros.

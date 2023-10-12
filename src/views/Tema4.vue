@@ -15,7 +15,7 @@
           .col-lg-6
             img(src='@/assets/curso/temas/tema4/tema4-img-01.svg' alt='AvatarTop').index-dos
           .col-lg-6
-            p El uso indiscriminado de los recursos naturales por parte del hombre ha generado impactos negativos en el medio ambiente, las malas prácticas han contaminado ríos y recursos naturales valiosos; con el pasar de los años esas malas prácticas han llegado a un nivel que requieren intervención por entidades de control con el fin de regularlas
+            p El uso indiscriminado de los recursos naturales por parte del hombre ha generado impactos negativos en el medio ambiente, las malas prácticas han contaminado ríos y recursos naturales valiosos; con el pasar de los años esas malas prácticas han llegado a un nivel que requieren intervención por entidades de control con el fin de regularlas.
 
     p.mt-3.mb-3 Una normatividad ambiental establece acuerdos entre diferentes sectores sociales generando disposiciones legales que regulan los niveles y uso de las sustancias contaminantes, a su vez cuales son aceptables y seguras para el ser humano y el medio ambiente. 
 

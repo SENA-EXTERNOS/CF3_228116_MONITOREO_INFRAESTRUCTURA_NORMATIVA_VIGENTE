@@ -17,7 +17,7 @@
         img(src='@/assets/curso/temas/tema1/tema1-img-01.png', alt='Texto que describa la imagen')(data-aos="flip-left")
       .col-lg-7
         .crd-paleBlue(data-aos="flip-left").p-3
-          p.mb-0 Se requiere reconocer que el tiempo en el que se encuentre fuera el sistema de información directamente está relacionado con pérdidas y hasta tanto las organizaciones no tengan presente este principio, no darán la importancia que merece el centro de datos como columna vertebral de la infraestructura tecnológica, pues en él se encuentran ubicados todos los componentes que permiten que los sistemas de información operan. 
+          p.mb-0 Se requiere reconocer que el tiempo en el que se encuentre fuera el sistema de información directamente está relacionado con pérdidas y hasta tanto las organizaciones no tengan presente este principio, no darán la importancia que merece el centro de datos como columna vertebral de la infraestructura tecnológica, pues en él se encuentran ubicados todos los componentes que permiten que los sistemas de información operen. 
 
     img(src='@/assets/curso/temas/tema1/tema1-img-decorativa-02.svg', alt='Texto que describa la imagen').tema1-decorativa-02
     img(src='@/assets/curso/temas/tema1/tema1-img-decorativa-03.svg', alt='Texto que describa la imagen').tema1-decorativa-03
@@ -38,22 +38,22 @@
               figure
                 img(src='@/assets/curso/temas/tema1/tema1-img-06.png', alt='Texto que describa la imagen')
 
-            .tarjeta.color-blanco1.p-3(x="16.2%" y="94%" numero="1")
+            .tarjeta.color-blanco1.p-3(x="16.2%" y="94%" numero="A")
               p Controlar y administrar el centro de datos.
 
-            .tarjeta.color-blanco2.p-3(x="29.8%" y="6%" numero="2")
+            .tarjeta.color-blanco2.p-3(x="29.8%" y="6%" numero="B")
               p Verificar el funcionamiento de la infraestructura en tiempo real. 
 
-            .tarjeta.color-blanco3.p-3(x="43.2%" y="94%" numero="3")
+            .tarjeta.color-blanco3.p-3(x="43.2%" y="94%" numero="C")
               p Reducir los incidentes.
       
-            .tarjeta.color-blanco4.p-3(x="56.8%" y="6%" numero="4")
+            .tarjeta.color-blanco4.p-3(x="56.8%" y="6%" numero="D")
               p Evitar ataques al sistema informático. 
             
-            .tarjeta.color-blanco5.p-3(x="70.3%" y="94%" numero="5")
+            .tarjeta.color-blanco5.p-3(x="70.3%" y="94%" numero="E")
               p Reducir la saturación y/o <br>congestión en la red.
             
-            .tarjeta.color-blanco6.p-3(x="84.3%" y="6%" numero="6")
+            .tarjeta.color-blanco6.p-3(x="84.3%" y="6%" numero="F")
               p Garantizar la disponibilidad de la red. 
     
     .row.mt-5
@@ -63,7 +63,7 @@
 
     .row.justify-content-center.mb-5.mt-4
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0 
-        .crd_hover_txt
+        .crd_hover_txt(style="min-height: 300px")
           .crd_hover_txt--img.tam-hover
             figure
               img(src="@/assets/curso/temas/tema1/tema1-img-07.png", alt="alt")
@@ -73,19 +73,19 @@
             p Ejemplos: #[i switches, router, servidores, firewall], etc.
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt
+        .crd_hover_txt(style="min-height: 300px")
           .crd_hover_txt--img.tam-hover
             figure
               img(src="@/assets/curso/temas/tema1/tema1-img-08.png", alt="alt")
           .crd_hover_txt--body.tam-body
-            h5.posicion-body.mb-3 Aplicaciones y servicios requeridos para el funcionamiento del sistema organizacional.  
-            p Ejemplos: Servidores Web, Servidores SQL, Servidores Correo,  Sistemas de Seguridad, Aplicaciones Web, etc. 
+            h5.posicion-body.mb-3 Aplicaciones y servicios requeridos para el funcionamiento del sistema organizacional  
+            p Ejemplos: servidores #[em web], servidores SQL, servidores correo,  sistemas de seguridad, aplicaciones #[em web], etc. 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt
+        .crd_hover_txt(style="min-height: 300px")
           .crd_hover_txt--img.tam-hover
             figure
               img(src="@/assets/curso/temas/tema1/tema1-img-09.png", alt="alt")
-          .crd_hover_txt--body.body-tel
+          .crd_hover_txt--body
             h5.mb-5 Entorno del centro de datos
             p.mb-2 Instalaciones que se realizan directamente sobre la infraestructura del centro de datos y permiten su control y monitoreo.
             p.pos-texto-h Ejemplo: sensores de movimiento, temperatura, humedad, humo. Cámaras de seguridad, UPS, control de accesos, etc.
@@ -109,11 +109,11 @@
         img(src='@/assets/curso/temas/tema1/tema1-img-10.png', alt='Texto que describa la imagen')(data-aos="flip-left")
       .col-lg-6
         .clr.crd-paleYellow(data-aos="flip-left")
-          p.posicion-texto-crd2.mt-3.mb-3 La infraestructura de cada edificio lo convierte en único, de la misma manera cada data center está diseñado y ajustado a los requerimientos organizacionales con el fin de responder adecuadamente a las necesidades de sus usuarios; realizar un seguimiento a la infraestructura tecnológica a través de bitácoras manuales ralentiza los procesos y por consiguiente se convierte en una metodología tediosa, por tanto, esto impide tener datos en tiempo real del estado del centro de datos y no facilita su consulta, almacenamiento y control.
+          p.posicion-texto-crd2.mt-3.mb-3 La infraestructura de cada edificio lo convierte en único, de la misma manera cada #[em data center] está diseñado y ajustado a los requerimientos organizacionales con el fin de responder adecuadamente a las necesidades de sus usuarios; realizar un seguimiento a la infraestructura tecnológica a través de bitácoras manuales ralentiza los procesos y por consiguiente se convierte en una metodología tediosa, por tanto, esto impide tener datos en tiempo real del estado del centro de datos y no facilita su consulta, almacenamiento y control.
 
-    p.mt-3 Lo fundamental a la hora de implementar un data center es pensar en cómo se puede hacer monitoreo automáticamente, algunos de los sistemas que nos permiten realizarlo son:
+    p.mt-3 Lo fundamental a la hora de implementar un #[em data center] es pensar en cómo se puede hacer monitoreo automáticamente, algunos de los sistemas que nos permiten realizarlo son:
 
-    h4.text-center Sistemas de monitoreo de un data center
+    h4.text-center Sistemas de monitoreo de un #[em data center]
 
     .puntos-calientes-02
       .row.justify-content-around.align-items-center.mt-3.mb-3
@@ -178,14 +178,14 @@
             figure
               img(src="@/assets/curso/temas/tema1/tema1-img-14.png", alt="alt")
           .crd_hover_txt--body
-            h4.text-center.mb-3.mt-2 Software
+            h4.text-center.mb-3.mt-2 #[em Software]
             p.mb-2 Los datos son recibidos directamente desde los controladores y se almacenan para permitir la creación de reportes a través del software.
             p Aplicativos que permiten realizar el monitoreo en tiempo real, además almacenan la información para su posterior consulta. 
 
     .row.mt-5
       h3 Sistemas de administración del centro de datos
 
-    p.mt-4 En la siguiente ilustración se mencionan las características de los 3 sistemas que conforman la administración del data center.
+    p.mt-4 En la siguiente ilustración se mencionan las características de los 3 sistemas que conforman la administración del #[em data center].
     
     .row.justify-content-center.align-items-center.mb-5
       .col-11

@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Monitoreo a la infraestructura T.I según normativa vigente',
+      'Monitoreo a la infraestructura TI según normativa vigente',
     descripcionCurso:
       'En este componente formativo se abordan los conceptos necesarios para realizar monitoreo al centro de datos cumpliendo con las normativas vigentes. ',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
@@ -227,7 +227,7 @@ export default {
     {
       termino: '<i>Cloud</i>',
       significado:
-        'tecnología que permite acceso remoto a <i>softwares</i>, almacenamiento de archivos y procesamiento de datos por medio de Internet.',
+        'tecnología que permite acceso remoto a <i>software</i>, almacenamiento de archivos y procesamiento de datos por medio de Internet.',
     },
   ],
   referencias: [

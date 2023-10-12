@@ -52,7 +52,7 @@
         .cajon.color-primario.p-4.mt-4
           p A continuación, se darán ejemplos de algunas herramientas de simulación que permiten tener respaldo del sistema.
 
-    p.mb-3 A continuación, se mencionan algunas herramientas de simulación para las redes sociales, virtualización y cargas eléctricas.
+    p.mb-3 A continuación, se mencionan algunas herramientas de simulación para las redes de datos, virtualización y cargas eléctricas.
 
     .tarjeta.tarjeta--azul.p-4
       .slyderA-01
@@ -61,7 +61,7 @@
             .col-md-6.mb-4.mb-md-0
               h5 Redes de datos
               p.mb-2  Aplicativos que permiten simular redes de datos con el fin de conocer su operación, equipos e infraestructura necesarias para su funcionamiento.
-              p.mb-2 Ejemplos de herramientas de Simulación:
+              p.mb-2 Ejemplos de herramientas de simulación:
               p NetSim, Jimsim, KivaNS, Network Simulator, OMNET ++, Packet Tracer, OPNET Modeler, RouterSim Network Simulators, Toggit y WebNMS Simulación Toolkit, CORE, IMUNES., etc.
 
             .col-md-5

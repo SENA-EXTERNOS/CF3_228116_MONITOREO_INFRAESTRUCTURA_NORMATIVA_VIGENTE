@@ -18,7 +18,7 @@
         .col-lg-6
           img(src='@/assets/curso/intro/intro-img-03.svg', alt='Texto que describa la imagen').img-intro-01(data-aos="zoom-in-right") 
 
-    img(src='@/assets/curso/intro/intro-decorativa-01.svg', alt='Texto que describa la imagen').intro-decorativa-01
+    //- img(src='@/assets/curso/intro/intro-decorativa-01.svg', alt='Texto que describa la imagen').intro-decorativa-01
 
     .row.justify-content-center.align-items-center
       .col-lg-11

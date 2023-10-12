@@ -49,7 +49,7 @@
                 img(src='@/assets/curso/temas/tema6/tema6-img-02.png', alt='Texto que describa la imagen')
 
             .tarjeta.color-blanco1.p-3(x="10.2%" y="39%" numero="")
-              h5.mt-3 Servidor Propio:
+              h5.mt-3 Servidor propio:
               p Utilizar los servicios directamente en un servidor local permiten reducir los riesgos de los incidentes en el sistema de información, dará estabilidad a la red y reduce los tiempos de consulta agilizando las respuestas a los usuarios, también garantiza la ejecución de los aplicativos en un ambiente controlado y seguro. 
 
             .tarjeta.color-blanco2.p-3(x="31.8%" y="39%" numero="")
