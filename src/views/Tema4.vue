@@ -88,11 +88,11 @@
     
     .row.mt-3
       .col-lg-8
-        a.anexo.mb-4.mb-lg-0(href="https://www.minambiente.gov.co/lideres-ambientales/normativa-ambiental/" target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="https://justiciaambientalcolombia.org/herramientas-juridicas/legislacion-ambiental/" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
-            p #[b Enlace web]. Normatividad Ambiental Vigente en Colombia 2022 - Biblioteca SST. (2020). Biblioteca Virtual de Seguridad y Salud en el Trabajo; Biblioteca Virtual SST. 
+            p #[b Enlace web]. Normatividad ambiental vigente en Colombia- Red por la Justicia Ambiental Colombia. 
 
 </template>
 

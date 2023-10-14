@@ -104,7 +104,6 @@
           AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             .row(titulo="Ambiente físico <i>data center</i>")
               .col-md-12.mb-4.mb-md-0
-                p.mb-2 Como explica Alfonso. G. (2016) en su blog, este indicador tiene tres unidades como ejes centrales de operación:
                 ol.lista-ol--cuadro
                   li 
                     .lista-ol--cuadro__vineta
@@ -125,8 +124,6 @@
 
             .row(titulo="Indicadores")
               .col-md-12.mb-4.mb-md-0
-                p.mb-2 Como explica Alfonso. G. (2016) 
-                p.mb-2 en su blog, este indicador tiene tres unidades como ejes centrales de operación:
                 .row
                   .col-lg-5
                     ul.color-i
