@@ -275,7 +275,7 @@
               .row.justify-content-between.align-items-center
                 .col-10.mb-3.mb-sm-0
                   h3.mb-1 Sistema de control de inventarios
-                  p.text-small Alcaldía de los patios. (2016). Matriz de inventario de activos de información. 
+                  p.text-small Alcaldía Municipal de Chaparral, Tolima. (2023). Matriz de inventario de activos de información. 
                 .col.mb-3.mb-sm-0
                   a.boton.color-acento-contenido(href="https://www.google.com/url?client=internal-element-cse&cx=17378af97b20a9ddf&q=https://www.lospatios-nortedesantander.gov.co/Conectividad/InformesGEL/Matriz%2520de%2520Inventario%2520Activos%2520de%2520Informaci%25C3%25B3n%25202016.xlsx&sa=U&ved=2ahUKEwjVxpDPxOz5AhXWmIQIHW0OAb4QFnoECAcQAQ&usg=AOvVaw3p-XH2TGFkKA_eqdkq77C9" target="_blank" type="application/pdf")
                     span Abrir enlace

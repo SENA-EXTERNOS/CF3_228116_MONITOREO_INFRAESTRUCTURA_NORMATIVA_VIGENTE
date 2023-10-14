@@ -179,7 +179,7 @@
               img(src="@/assets/curso/temas/tema1/tema1-img-14.png", alt="alt")
           .crd_hover_txt--body
             h4.text-center.mb-3.mt-2 #[em Software]
-            p.mb-2 Los datos son recibidos directamente desde los controladores y se almacenan para permitir la creación de reportes a través del software.
+          p.mb-2 Los datos son recibidos directamente desde los controladores y se almacenan para permitir la creación de reportes a través del #[em software.]
             p Aplicativos que permiten realizar el monitoreo en tiempo real, además almacenan la información para su posterior consulta. 
 
     .row.mt-5
@@ -189,7 +189,7 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-11
-        img(src="@/assets/curso/temas/tema1/tema1-img-15.png")(data-aos="fade-left")
+        img(src="@/assets/curso/temas/tema1/tema1-img-15.svg")(data-aos="fade-left")
         p.mt-1 Fuente SIEMENS Publireportaje, 2020.
 
     .tarjeta.color-primario1.p-4.p-md-5.mb-5.mt-3

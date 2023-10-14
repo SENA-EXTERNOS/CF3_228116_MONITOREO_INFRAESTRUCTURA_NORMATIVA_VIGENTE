@@ -14,7 +14,7 @@
             img(src="@/assets/template/relacion2.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-botones
-          h2  Monitoreo a la infraestructura TI según normativa vigente.
+          h2  Monitoreo a la infraestructura TI según normativa vigente
         p.mb-4 Apreciado aprendiz, a continuación, encontrará una serie de preguntas que deberá resolver, con el objetivo de evaluar la aprehensión de los conocimientos expuestos en este componente formativo.
 
         .tarjeta.actividad.p-3
