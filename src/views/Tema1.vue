@@ -179,7 +179,7 @@
               img(src="@/assets/curso/temas/tema1/tema1-img-14.png", alt="alt")
           .crd_hover_txt--body
             h4.text-center.mb-3.mt-2 #[em Software]
-          p.mb-2 Los datos son recibidos directamente desde los controladores y se almacenan para permitir la creación de reportes a través del #[em software.]
+            p.mb-2 Los datos son recibidos directamente desde los controladores y se almacenan para permitir la creación de reportes a través del #[em software.]
             p Aplicativos que permiten realizar el monitoreo en tiempo real, además almacenan la información para su posterior consulta. 
 
     .row.mt-5
