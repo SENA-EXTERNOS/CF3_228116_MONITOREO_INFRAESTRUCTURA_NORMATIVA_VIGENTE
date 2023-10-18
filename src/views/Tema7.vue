@@ -188,7 +188,7 @@
 
     .row.justify-content-around.align-items-center.mt-5
       .col-lg-5
-        img(src='@/assets/curso/temas/tema7/tema7-img-13.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/temas/tema7/tema7-img-13.png', alt='Texto que describa la imagen')
       .col-lg-5
         p.mb-2 La gestión de activos hace referencia a la implementación de un aplicativo que permita ejercer control sobre los activos y garantice que a través de consultas se conozca su ubicación, valor real, depreciación, entre otros; por último, la administración se aplica de acuerdo con el método de control de inventarios que se implemente y rigurosidad con la que el equipo de trabajo hará seguimiento. 
         p Lo anterior se puede resumir de la siguiente manera: 
@@ -197,7 +197,7 @@
 
     .row.justify-content-center.align-items-center.mt-5.index-dos
       .col-10
-        img(src="@/assets/curso/temas/tema7/tema7-img-14.svg")  
+        img(src="@/assets/curso/temas/tema7/tema7-img-14.png")  
 
     .row.justify-content-around.align-items-center.mt-3 
       .col-lg-9
@@ -216,7 +216,7 @@
           
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/tema7/tema7-img-15.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema7/tema7-img-15.png', alt='Texto que describa la imagen')
 
           .row(numero="2" titulo="PEPS")
             .col-md-6.mb-4.mb-md-0
@@ -224,7 +224,7 @@
 
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/tema7/tema7-img-16.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema7/tema7-img-16.png', alt='Texto que describa la imagen')
 
           .row(numero="3" titulo="EOQ")
             .col-md-6.mb-4.mb-md-0
@@ -232,7 +232,7 @@
 
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/tema7/tema7-img-17.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema7/tema7-img-17.png', alt='Texto que describa la imagen')
 
           .row(numero="4" titulo="UEPS")
             .col-md-6.mb-4.mb-md-0
@@ -240,7 +240,7 @@
           
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/tema7/tema7-img-18.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema7/tema7-img-18.png', alt='Texto que describa la imagen')
 
           .row(numero="5" titulo="Conteo cíclico")
             .col-md-6.mb-4.mb-md-0
@@ -256,7 +256,7 @@
 
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/tema7/tema7-img-20.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema7/tema7-img-20.png', alt='Texto que describa la imagen')
 
 
     .row.my-5

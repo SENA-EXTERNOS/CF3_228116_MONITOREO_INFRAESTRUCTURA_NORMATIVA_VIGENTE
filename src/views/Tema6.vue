@@ -36,7 +36,7 @@
         p Algunos de los criterios de seguridad del <i>software</i> son: 
 
       .col-lg-5
-        img(src='@/assets/curso/temas/tema6/tema6-img-01.svg', alt='Texto que describa la imagen')(data-aos="fade-left") 
+        img(src='@/assets/curso/temas/tema6/tema6-img-01.png', alt='Texto que describa la imagen')(data-aos="fade-left") 
 
     p.mt-3 Criterios de seguridad del <i>software</i>
 

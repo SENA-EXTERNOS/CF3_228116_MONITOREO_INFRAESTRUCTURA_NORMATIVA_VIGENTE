@@ -33,7 +33,7 @@
       .col-lg-12
         .row
           img(src='@/assets/curso/temas/tema5/tema5-img-03.svg', alt='Texto que describa la imagen').tema5-img-03
-          img(src='@/assets/curso/temas/tema5/tema5-img-04.svg', alt='Texto que describa la imagen').tema5-img-04
+          img(src='@/assets/curso/temas/tema5/tema5-img-04.png', alt='Texto que describa la imagen').tema5-img-04
       .clr.crd-white(data-aos="zoom-in-up")
         p.posicion-texto-t5.mt-3 Hablando específicamente de la Seguridad y Salud en el Trabajo enfocado en TI, podría decirse que el nivel de riesgo no sea alto o peor aún, que no existan riesgos que deban ser mitigados debido a la naturaleza misma de la actividad que se realiza, monitoreo de cámaras o del centro de datos, analizar la red, desarrollar aplicativos, utilizar el sistema de información para hacer consultas, entre otros; son algunas de las actividades del día a día, completamente diferentes a los que por ejemplo en la construcción se encuentran de manera mucho más evidentes y hacen que se consideren actividades de riesgo; sin embargo; algunas de los riesgos más relevantes dentro de TI son: 
 
@@ -69,7 +69,7 @@
                 h5 Contacto eléctrico
                 p Es inevitable que al trabajar con equipos electrónicos se sufra un riesgo eléctrico. La electricidad puede ocasionar daños en cuatro maneras diferentes: choque eléctrico o electrocución, ignición de vapores inflamables, incendios por sobrecargas, caídas por electrocución, para evitar estos riesgos y sus perjudiciales consecuencias, se debe contar con las instalaciones adecuadas, además de realizar mantenimientos periódicos que garanticen su operabilidad. Respecto a los equipos eléctricos, se debe conocer y comprender su uso, mismo que deberá ser realizado por un experto y jamás permitir el acceso a zonas con peligro de descargas eléctricas como plantas o subestaciones a personal no autorizado. Puede consultar la guía RETIE colombiana para conocer más sobre este tema. 
               .col-lg-6
-                img(src='@/assets/curso/temas/tema5/tema5-img-08.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema5/tema5-img-08.png', alt='Texto que describa la imagen')
 
           div(x="100%" y="77%" tooltip="Ver Más" numero="+")
             .row.justify-content-around.align-items-center

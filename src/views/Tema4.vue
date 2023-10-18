@@ -13,7 +13,7 @@
       .col-lg-11
         .row.justify-content-around.align-items-center.mb-3
           .col-lg-6
-            img(src='@/assets/curso/temas/tema4/tema4-img-01.svg' alt='AvatarTop').index-dos
+            img(src='@/assets/curso/temas/tema4/tema4-img-01.png' alt='AvatarTop').index-dos
           .col-lg-6
             p El uso indiscriminado de los recursos naturales por parte del hombre ha generado impactos negativos en el medio ambiente, las malas prácticas han contaminado ríos y recursos naturales valiosos; con el pasar de los años esas malas prácticas han llegado a un nivel que requieren intervención por entidades de control con el fin de regularlas.
 

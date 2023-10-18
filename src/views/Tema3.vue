@@ -16,7 +16,7 @@
 
     .bloque-texto-g.color-primario.p-3.p-sm-1.p-md-5.mt-5(data-aos="fade-right")  
       .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/tema3-img-01.svg')})`}"
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/tema3-img-01.png')})`}"
       )
       .bloque-texto-g__texto.p-2
         p.mb-0 Al momento de percatarse de una falla del equipo de cómputo que le permite acceder al sistema de información, un usuario registra un #[i ticket] solicitando apoyo para su reparación, mismo que llega directamente al equipo de mesa de ayuda y este a su vez, realiza la asignación de acuerdo con su prioridad; el técnico delegado para resolver el <i>ticket</i> contacta al usuario, realizan un acuerdo para la revisión e inmediatamente trabaja en función de su solución. 
@@ -85,7 +85,7 @@
                 p En cualquier actividad se puede implementar un indicador, realizar seguimiento y aplicar las retroalimentaciones necesarias según los requerimientos garantiza que se corrijan las novedades, ofrecer un mejor servicio y mantener la infraestructura TI en condiciones óptimas de funcionamiento. 
 
       .col-lg-5
-        img(src='@/assets/curso/temas/tema3/tema3-img-02.svg' alt='AvatarTop')(data-aos="flip-right") 
+        img(src='@/assets/curso/temas/tema3/tema3-img-02.png' alt='AvatarTop')(data-aos="flip-right") 
 
     p.mt-3 Las recomendaciones de ASHRAE permiten tener indicadores de seguimiento y control para los #[em data center], por citar un ejemplo el desempeño del enfriamiento está regulado por la métrica PUE (#[i Power Usage Effectiveness]) que mide la eficiencia energética de la infraestructura del <i>data center</i>.
     
@@ -97,7 +97,7 @@
 
     .row.justify-content-around.align-items-center.mb-3
       .col-lg-5
-        img(src='@/assets/curso/temas/tema3/tema3-img-03.svg' alt='AvatarTop')(data-aos="flip-up")     
+        img(src='@/assets/curso/temas/tema3/tema3-img-03.png' alt='AvatarTop')(data-aos="flip-up")     
 
       .col-lg-7
         .acordionA-02

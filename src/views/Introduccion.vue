@@ -16,7 +16,7 @@
             p.posicion-texto-intro.mb-3 Cada edificación posee un diseño que lo hace único, por ello podemos reconocer en fotografías el Burj Khalifa en Emiratos Árabes o el One World Trade Center ubicado en Estados Unidos, cada arquitecto plasma en ellos un patrón que permite integrarlo al contexto en el que se encuentre; de la misma manera diseñará un espacio en el cual se controle toda la parte lógica del edificio en un solo espacio y para ello se deben tener presentes las normativas y estándares internacionales que permitan su administración y control evitando el colapso de todo el sistema de información.  
             p.posicion-texto-intro Este componente formativo aborda la temática del monitoreo del centro de datos según la normatividad vigente; a través de la apropiación de conceptos claves, se reconocerán los estándares internacionales que permiten administrar las variables del centro de datos, así evitar caídas del sistema y errores humanos que afecten el normal funcionamiento y operación de la empresa. 
         .col-lg-6
-          img(src='@/assets/curso/intro/intro-img-03.svg', alt='Texto que describa la imagen').img-intro-01(data-aos="zoom-in-right") 
+          img(src='@/assets/curso/intro/intro-img-03.png', alt='Texto que describa la imagen').img-intro-01(data-aos="zoom-in-right") 
 
     //- img(src='@/assets/curso/intro/intro-decorativa-01.svg', alt='Texto que describa la imagen').intro-decorativa-01
 

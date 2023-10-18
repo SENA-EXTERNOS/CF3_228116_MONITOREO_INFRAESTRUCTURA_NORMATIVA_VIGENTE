@@ -4,7 +4,7 @@ export default {
       'Monitoreo a la infraestructura TI según normativa vigente',
     descripcionCurso:
       'En este componente formativo se abordan los conceptos necesarios para realizar monitoreo al centro de datos cumpliendo con las normativas vigentes. ',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {

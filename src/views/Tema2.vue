@@ -9,7 +9,7 @@
 
     .row.justify-content-around.align-items-center(data-aos="zoom-in")
       .col-lg-10
-        img(src='@/assets/curso/temas/tema2/tema2-img-01.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/temas/tema2/tema2-img-01.png', alt='Texto que describa la imagen')
       .clr.crd-paleBlue2
         p.posicion-texto-crd2.mt-3.mb-3 En el funcionamiento y operación del centro de datos se deben tener en cuenta todas las variables que pueden afectar su normal operación; para garantizar una disponibilidad del 100% en su funcionamiento se deberá contar con equipos “contingencia” o de respaldo que permitan suplir un requerimiento puntual en caso de ser necesario.
 
@@ -21,25 +21,25 @@
     .slyderf-02.mb-3
       SlyderF(columnas="col-lg-6 col-xl-4")
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema2/tema2-img-02.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema2/tema2-img-02.png' alt='AvatarTop')
           .tarjeta.color-primario.p-4              
             h2.text-center Contingencias
             p.text-center Las contingencias pueden ser físicas y también lógicas, se puede tener una planta eléctrica, un servidor de respaldo, un disco de respaldo, una conexión física de respaldo, una copia del sistema en la nube o un servidor virtualizado; incluso un centro de datos de respaldo que garantice la operatividad del sistema sin importar la falla que se presente.
 
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema2/tema2-img-03.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema2/tema2-img-03.png' alt='AvatarTop')
           .tarjeta.color-primario.p-4            
             h2.text-center Copias de seguridad
             p.text-center Para que las contingencias sean operativas deben contar la información actualizada así que el administrador del sistema deberá realizar copias de seguridad permanentes del sistema principal y replicar la información a la contingencia.
 
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema2/tema2-img-04.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema2/tema2-img-04.png' alt='AvatarTop')
           .tarjeta.color-primario.p-4              
             h2.text-center Copia de seguridad
             p.text-center Así al momento de fallar el sistema se pueda utilizar la copia de respaldo y no se vea afectada la integralidad de la información y la prestación del servicio. 
         
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema2/tema2-img-05.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema2/tema2-img-05.png' alt='AvatarTop')
           .tarjeta.color-primario.p-4              
             h2.text-center Contingencias
             p.text-center Como se puede observar, las contingencias deberán estar pensadas de acuerdo a la infraestructura TI y como tal deberán suplir el sistema principal en caso de presentarse cualquier novedad.

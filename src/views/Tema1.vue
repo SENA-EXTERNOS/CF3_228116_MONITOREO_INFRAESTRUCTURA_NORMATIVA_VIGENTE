@@ -189,7 +189,7 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-11
-        img(src="@/assets/curso/temas/tema1/tema1-img-15.svg")(data-aos="fade-left")
+        img(src="@/assets/curso/temas/tema1/tema1-img-15.png")(data-aos="fade-left")
         p.mt-1 Fuente SIEMENS Publireportaje, 2020.
 
     .tarjeta.color-primario1.p-4.p-md-5.mb-5.mt-3
