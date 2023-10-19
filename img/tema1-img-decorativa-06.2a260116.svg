@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="471.494" height="426.061" viewBox="0 0 471.494 426.061">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2e7d87"/>
+      <stop offset="1" stop-color="#43b8c8"/>
+    </linearGradient>
+    <filter id="Trazado_736394">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feFlood flood-color="#2c2a2a" flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_929417" data-name="Grupo 929417" transform="translate(8763.989 477.569)">
+    <g id="Grupo_929416" data-name="Grupo 929416">
+      <g id="Grupo_929415" data-name="Grupo 929415" transform="translate(193.58 -844.885)">
+        <g id="Grupo_929414" data-name="Grupo 929414" transform="translate(-9127.991 -14648.088) rotate(-138)" opacity="0.86">
+          <path id="Trazado_736393" data-name="Trazado 736393" d="M756.329-2.234c-421.44-.91-624.607,6.775-624.607,6.775" transform="translate(-10047.665 -11044.038) rotate(180)" fill="none" stroke="#3c9aa7" stroke-width="4"/>
+          <g data-type="innerShadowGroup">
+            <path id="Trazado_736394-2" data-name="Trazado 736394" d="M93.1,61.261,61.084,93.368a17,17,0,0,1-24.083,0L4.987,61.261a17.116,17.116,0,0,1,0-24.153L37,5A17,17,0,0,1,61.084,5L93.1,37.108A17.113,17.113,0,0,1,93.1,61.261Z" transform="translate(-10605.884 -10995.263) rotate(180)" opacity="0.81" fill="url(#linear-gradient)"/>
+            <g transform="matrix(-0.74, 0.67, -0.67, -0.74, -10173.91, -11044.59)" filter="url(#Trazado_736394)">
+              <path id="Trazado_736394-3" data-name="Trazado 736394" d="M93.1,61.261,61.084,93.368a17,17,0,0,1-24.083,0L4.987,61.261a17.116,17.116,0,0,1,0-24.153L37,5A17,17,0,0,1,61.084,5L93.1,37.108A17.113,17.113,0,0,1,93.1,61.261Z" transform="translate(354.02 252.39) rotate(42)" fill="#fff" opacity="0.81"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
